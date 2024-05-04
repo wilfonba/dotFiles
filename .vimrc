@@ -2,7 +2,6 @@ filetype on
 filetype plugin on
 filetype indent on
 syntax on
-set number
 set cursorline
 set shiftwidth=4
 set tabstop=4
@@ -70,6 +69,19 @@ nnoremap <Leader>W      :w!<cr>
 nnoremap <Leader>x      :x<cr>
 nnoremap <Leader>X      :x!<cr>
 
+" Relative or absolute number lines
+function! NumberToggle()
+    if(&nu == 1)
+        set nu!
+        set rnu
+    else
+        set nornu
+        set nu
+    endif
+endfunction
+
+nnoremap <C-n> :call NumberToggle()<CR>
+
 execute pathogen#infect()
 
 " A collection of plugins that provide quality of life improvements
@@ -86,6 +98,7 @@ let g:tex_conceal='abdmg'
 " Add fancy bottom banner showing mode
 Plug 'vim-airline/vim-airline'
 
+" Search for files
 Plug 'kien/ctrlp.vim'
 
 " Themes for vim-airline
@@ -94,23 +107,11 @@ Plug 'vim-airline/vim-airline-themes'
 " Keybindings for toggling comments on lines or groups of lines
 Plug 'scrooloose/nerdcommenter'
 
-" Syntax checking
-Plug 'w0rp/ale'
-
-" Autocompletiong
-Plug 'valloric/youcompleteme'
-
-" Indentation guides for Vim
-Plug 'Yggdroot/indentLine'
-
 " Highlight trailing white space in red
 Plug 'bronson/vim-trailing-whitespace'
 
 " Automatically place second delimiter
 Plug 'jiangmiao/auto-pairs'
-
-" Visual view of document struture
-Plug 'preservim/tagbar'
 
 " Colorful delimeters
 Plug 'luochen1990/rainbow'
@@ -120,17 +121,11 @@ call plug#end()
 " Remove trailing white space with ;fw
 map <leader>fw :FixWhitespace <enter>
 
-" Automatically show indent guides on startup with vim-indent-guides
-let g:indent_guides_enable_on_vim_startup = 1
-
 " Set color scheme for bottom banner
 let g:airline_theme='distinguished'
 
 " Open ctrlp file search
 let g:ctrlp_map = 'ns'
-
-" Toggle tagbar with ;tb
-nmap <leader>tg :TagbarToggle<enter>
 
 " Always colorful delimeters
 let g:rainbow_active = 1
