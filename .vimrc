@@ -117,6 +117,11 @@ Plug 'jiangmiao/auto-pairs'
 " Colorful delimeters
 Plug 'luochen1990/rainbow'
 
+" indent level indicator
+Plug 'Yggdroot/indentLine'
+
+" Style suggests for academic and scientific texts
+Plug 'anufrievroman/vim-angry-reviewer'
 call plug#end()
 
 " Remove trailing white space with ;fw
@@ -134,3 +139,9 @@ let g:rainbow_active = 1
 " Opn a terminal to the bottom of the screen
 nnoremap <Leader>t      :term ++close<cr>
 
+" Don't enter insert mode after inserting a new empty line
+nnoremap o o<Esc>
+nnoremap O O<Esc>
+
+" Move line down
+nnoremap m i<CR><ESC>
