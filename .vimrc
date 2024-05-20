@@ -117,9 +117,6 @@ Plug 'jiangmiao/auto-pairs'
 " Colorful delimeters
 Plug 'luochen1990/rainbow'
 
-" indent level indicator
-Plug 'Yggdroot/indentLine'
-
 " Style suggests for academic and scientific texts
 Plug 'anufrievroman/vim-angry-reviewer'
 call plug#end()
@@ -137,7 +134,8 @@ let g:ctrlp_map = 'ns'
 let g:rainbow_active = 1
 
 " Opn a terminal to the bottom of the screen
-nnoremap <Leader>t      :term ++close<cr>
+nnoremap <Leader>tv    :vertical  :term ++close<cr>
+nnoremap <Leader>th  :horizontal  :term ++close<cr>
 
 " Don't enter insert mode after inserting a new empty line
 nnoremap o o<Esc>
