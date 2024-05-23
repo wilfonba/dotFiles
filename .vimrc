@@ -140,7 +140,7 @@ let g:rainbow_active = 1
 
 " Opn a terminal to the bottom of the screen
 nnoremap <Leader>tv    :vertical  :term ++close<cr>
-nnoremap <Leader>th  :horizontal  :term ++close<cr>
+nnoremap <Leader>th :term ++close<cr>
 
 " Don't enter insert mode after inserting a new empty line
 nnoremap o o<Esc>
