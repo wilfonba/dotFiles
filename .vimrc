@@ -18,6 +18,11 @@ set mouse=a
 set spell spelllang=en_us
 set nolist wrap linebreak breakat&vim
 
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
@@ -26,7 +31,6 @@ endif
 
 set clipboard=unnamed
 set background=dark
-colorscheme gruvbox
 
 let mapleader = ";"
 
@@ -83,8 +87,6 @@ endfunction
 
 nnoremap <C-n> :call NumberToggle()<CR>
 
-execute pathogen#infect()
-
 " A collection of plugins that provide quality of life improvements
 call plug#begin()
 
@@ -117,6 +119,9 @@ Plug 'jiangmiao/auto-pairs'
 " Colorful delimeters
 Plug 'luochen1990/rainbow'
 
+" gruvbox theme
+Plug 'morhetz/gruvbox'
+
 " Style suggests for academic and scientific texts
 Plug 'anufrievroman/vim-angry-reviewer'
 call plug#end()
@@ -140,6 +145,9 @@ nnoremap <Leader>th  :horizontal  :term ++close<cr>
 " Don't enter insert mode after inserting a new empty line
 nnoremap o o<Esc>
 nnoremap O O<Esc>
+
+" Apply colorscheme
+colorscheme gruvbox
 
 " Move line down
 nnoremap m i<CR><ESC>
