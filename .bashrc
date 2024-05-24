@@ -13,7 +13,7 @@ git pull
 # Path to your oh-my-bash installation.
 
 if [[ $(hostname) =~ Andes ]]; then export OSH='/ccs/home/bwilfong3/.oh-my-bash'; fi
-if [[ $(hostname - f) =~ "frontier" ]]; then export OSH='/ccs/home/bwilfong3/.oh-my-bash'; fi
+if [[ $(hostname -f) =~ "frontier" ]]; then export OSH='/ccs/home/bwilfong3/.oh-my-bash'; fi
 if [[ $(hostname) =~ "delta" ]]; then export OSH='/u/bwilfong/.oh-my-bash'; fi
 if [[ $(hostname) =~ "phoenix" ]]; then export OSH='/storage/home/hcoda1/6/bwilfong3/.oh-my-bash'; fi
 if [ $(hostname) = "wingtip-gpu3" ]; then export OSH='/nethome/bwilfong3/.oh-my-bash'; fi
