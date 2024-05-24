@@ -5,7 +5,11 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH='/storage/home/hcoda1/6/bwilfong3/.oh-my-bash'
+
+if [[ $(cat /etc/hostname) =~ "frontier" ]]; then export OSH='/ccs/home/bwilfong3/.oh-my-bash'; fi
+if [[ $(hostname) =~ "delta" ]]; then export OSH='/u/bwilfong/.oh-my-bash'; fi
+if [[ $(hostname) =~ "phoenix" ]]; then export OSH='/storage/home/hcoda1/6/bwilfong3/.oh-my-bash'; fi
+if [ $(hostname) = "wingtip-gpu3" ]; then export OSH='/nethome/bwilfong3/.oh-my-bash'; fi
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
