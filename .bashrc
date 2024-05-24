@@ -52,10 +52,6 @@ then
     export OSH='/nethome/bwilfong3/.oh-my-bash';
 fi
 
-alias d="ls"
-alias df="cd ~/dotFiles"
-alias bs="source ~/.bashrc"
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="powerline-icon"
@@ -194,3 +190,8 @@ POWERLINE_PROMPT_USER_INFO_MODE="sudo"
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+
+alias d="ls"
+alias df="cd ~/dotFiles"
+alias bs="source ~/.bashrc"
+
