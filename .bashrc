@@ -191,25 +191,3 @@ POWERLINE_PROMPT_USER_INFO_MODE="sudo"
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-
-
-# User specific aliases and functions
-
-alias mw="cd /storage/scratch1/6/bwilfong3"
-
-alias bd="cd /storage/coda1/p-sm53/0/bwilfong3"
-
-alias lc=". ./mfc.sh load -c p -m c"
-alias lg=". ./mfc.sh load -c p -m g"
-alias c="clear"
-alias d="dir"
-alias ag="sinfo | grep -i 'idle' | grep -i 'gpu'"
-alias ac="sinfo | grep -i 'idle' | grep -i 'cpu-small'"
-alias s="squeue -u bwilfong3"
-alias e="exit"
-alias mf="cat /proc/meminfo | grep MemFree"
-alias mt="cat /proc/meminfo | grep MemTotal"
-function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
-function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
-alias p="pace-quota"
-alias l=". ./mfc.sh load -c p -m g"
