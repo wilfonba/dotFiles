@@ -30,7 +30,6 @@ then
     alias l=". ./mfc.sh load -c s -m g"
     alias s="squeue -u bwilfong3"
     alias b="bjobs -u bwilfong3"
-    alias d="ls"
     alias c="clear"
     alias e="exit"
     alias si="sinfo"
@@ -52,6 +51,10 @@ if [ $(hostname) = "wingtip-gpu3" ];
 then
     export OSH='/nethome/bwilfong3/.oh-my-bash';
 fi
+
+alias d="ls"
+alias df="cd ~/dotFiles"
+alias bs="source ~/.bashrc"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
