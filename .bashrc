@@ -41,6 +41,13 @@ if [[ $(hostname) =~ "delta" ]];
 then 
     export OSH='/u/bwilfong/.oh-my-bash';
     alias mw="/scratch/bbsc/bwilfong"
+    alias s="squeue -u bwilfong"
+    alias c="clear"
+    alias e="exit"
+    alias si="sinfo"
+    alias sq="squeue"
+    alias ss="squeue --start"
+    alias l=". ./mfc.sh load -c d -m g"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]]; 
