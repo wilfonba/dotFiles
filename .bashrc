@@ -40,6 +40,7 @@ fi
 if [[ $(hostname) =~ "delta" ]]; 
 then 
     export OSH='/u/bwilfong/.oh-my-bash';
+    alias mw="/scratch/bbsc/bwilfong"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]]; 
