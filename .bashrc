@@ -203,10 +203,10 @@ then
     alias l=". ./mfc.sh load -c p -m g"
 fi
 
-if [ $(hostname) = "wingtip-gpu3" ];
-then
+#if [ $(hostname) = "wingtip-gpu3" ];
+#then
 
-fi
+#fi
 
 alias d="ls"
 alias df="cd ~/dotFiles"
