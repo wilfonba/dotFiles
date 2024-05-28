@@ -12,46 +12,23 @@ git pull
 
 # Path to your oh-my-bash installation.
 
-if [[ $(hostname) =~ Andes ]]; 
-then 
+if [[ $(hostname) =~ Andes ]];
+then
     export OSH='/ccs/home/bwilfong3/.oh-my-bash';
 fi
 
-if [[ $(hostname -f) =~ "frontier" ]]; 
-then 
+if [[ $(hostname -f) =~ "frontier" ]];
+then
     export OSH='/ccs/home/bwilfong3/.oh-my-bash';
-    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    alias h="cd /ccs/home/bwilfong3"
-    alias ps="cd /gpfs/alpine/cfd154/proj-shared"
-    alias int="bsub -Is -nnodes 1 -P cfd154 -W 02:00 $SHELL"
-    alias se="export CRAY_ACC_MODULE=/lustre/orion/cfd154/scratch/bwilfong3/software/MFC-AMD/build/simulation/simulation-wg256.lld.exe"
-    alias hint="salloc -A cfd154 --nodes=1 --gpus-per-node=8 --ntasks-per-node=8 --gpu-bind=closest -J interactive -t 2:00:00 -q debug"
-    alias fint="salloc -A cfd154 -J thing -t 2:00:00 -q debug -N 1"
-    alias l=". ./mfc.sh load -c s -m g"
-    alias s="squeue -u bwilfong3"
-    alias b="bjobs -u bwilfong3"
-    alias c="clear"
-    alias e="exit"
-    alias si="sinfo"
-    alias sq="squeue"
-    alias ss="squeue --start"
 fi
 
-if [[ $(hostname) =~ "delta" ]]; 
-then 
+if [[ $(hostname) =~ "delta" ]];
+then
     export OSH='/u/bwilfong/.oh-my-bash';
-    alias mw="/scratch/bbsc/bwilfong"
-    alias s="squeue -u bwilfong"
-    alias c="clear"
-    alias e="exit"
-    alias si="sinfo"
-    alias sq="squeue"
-    alias ss="squeue --start"
-    alias l=". ./mfc.sh load -c d -m g"
 fi
 
-if [[ $(hostname) =~ "phoenix" ]]; 
-then 
+if [[ $(hostname) =~ "phoenix" ]];
+then
     export OSH='/storage/home/hcoda1/6/bwilfong3/.oh-my-bash';
 fi
 
@@ -199,7 +176,45 @@ POWERLINE_PROMPT_USER_INFO_MODE="sudo"
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
+if [[ $(hostname) =~ Andes ]];
+then
+    export OSH='/ccs/home/bwilfong3/.oh-my-bash';
+fi
+
+if [[ $(hostname -f) =~ "frontier" ]];
+then
+    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    alias h="cd /ccs/home/bwilfong3"
+    alias ps="cd /gpfs/alpine/cfd154/proj-shared"
+    alias hint="salloc -A cfd154 --nodes=1 --gpus-per-node=8 --ntasks-per-node=8 --gpu-bind=closest -J interactive -t 2:00:00 -q debug"
+    alias l=". ./mfc.sh load -c s -m g"
+    alias s="squeue -u bwilfong3"
+fi
+
+if [[ $(hostname) =~ "delta" ]];
+then
+    alias mw="/scratch/bbsc/bwilfong"
+    alias s="squeue -u bwilfong"
+    alias l=". ./mfc.sh load -c d -m g"
+fi
+
+if [[ $(hostname) =~ "phoenix" ]];
+then
+    alias l=". ./mfc.sh load -c p -m g"
+fi
+
+if [ $(hostname) = "wingtip-gpu3" ];
+then
+
+fi
+
 alias d="ls"
 alias df="cd ~/dotFiles"
 alias bs="source ~/.bashrc"
+alias c="clear"
+alias e="exit"
+alias si="sinfo"
+alias sq="squeue"
+alias ss="squeue --start"
 
+mw
