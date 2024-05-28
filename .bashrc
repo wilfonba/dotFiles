@@ -193,7 +193,7 @@ fi
 
 if [[ $(hostname) =~ "delta" ]];
 then
-    alias mw="/scratch/bbsc/bwilfong"
+    alias mw="cd /scratch/bbsc/bwilfong"
     alias s="squeue -u bwilfong"
     alias l=". ./mfc.sh load -c d -m g"
 fi
