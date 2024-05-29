@@ -4,11 +4,14 @@ case $- in
     *) return;;
 esac
 
-cd ~/dotFiles
-git pull
+if [[$(hostname -f) =~ "login"]];
+then
+    cd ~/dotFiles
+    git pull
 
-\cp ~/dotFiles/.bashrc ~/.bashrc
-\cp ~/dotFiles/.vimrc ~/.vimrc
+    \cp ~/dotFiles/.bashrc ~/.bashrc
+    \cp ~/dotFiles/.vimrc ~/.vimrc
+fi
 
 # Path to your oh-my-bash installation.
 
@@ -34,14 +37,19 @@ fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
 then
+    cd ~/dotFiles
+    git pull
+
+    \cp ~/dotFiles/.bashrc ~/.bashrc
+    \cp ~/dotFiles/.vimrc ~/.vimrc
+
     export OSH='/nethome/bwilfong3/.oh-my-bash';
 fi
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="powerline-icon"
-POWERLINE_PROMPT_USER_INFO_MODE="sudo"
-POWERLINE_PROMPT="scm cwd in_vim"
+OSH_THEME="vscode"
+
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
 
@@ -59,7 +67,7 @@ POWERLINE_PROMPT="scm cwd in_vim"
 # export UPDATE_OSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+ DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
