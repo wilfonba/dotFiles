@@ -43,11 +43,11 @@ then
     alias l=". ./mfc.sh load -c p -m g"
 fi
 
-#if [ $(hostname) = "wingtip-gpu3" ];
-#then
+if [ $(hostname) = "wingtip-gpu3" ];
+then
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
-#fi
+fi
 
 # General aliases
 alias d="ls"
