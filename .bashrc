@@ -22,9 +22,8 @@ fi
 if [[ $(hostname -f) =~ "frontier" ]];
 then
     alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    alias ps="cd /gpfs/alpine/cfd154/proj-shared"
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=8 --ntasks-per-node=$2 --gpu-binde=closes -A gts-sbryngelson8; }
-    alias l=". ./mfc.sh load -c s -m g"
+    alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
 fi
 
@@ -37,10 +36,11 @@ fi
 
 if [[ $(hostname) =~ "phoenix" ]];
 then
-    alias l=". ./mfc.sh load -c p -m g"
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson8; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
+    alias s="squeue -u bwilfong3"
+    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
 fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
@@ -59,7 +59,7 @@ alias si="sinfo"
 alias sq="squeue"
 alias h="cd ~/"
 alias sls="screen -l"
-alias sr="screen -r"
+alias sa="screen -r"
 alias sr="rocm-smi"
 alias ns="nvidia-smi"
 
