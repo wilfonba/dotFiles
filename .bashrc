@@ -27,7 +27,7 @@ fi
 
 if [[ $(hostname) =~ "phoenix" ]];
 then
-    function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson8; }
+    function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
