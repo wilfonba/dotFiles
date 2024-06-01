@@ -1,14 +1,5 @@
 # Fetching latest .bashrc
-if [[ $(hostname -f) =~ "login" ]];
-then
-    cd ~/dotFiles
-    git pull
-
-    \cp ~/dotFiles/.bashrc ~/.bashrc
-    \cp ~/dotFiles/.vimrc ~/.vimrc
-fi
-
-if [ $(hostname) = "wingtip-gpu3" ];
+if shopt -q login_shell;
 then
     cd ~/dotFiles
     git pull
