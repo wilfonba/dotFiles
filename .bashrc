@@ -13,7 +13,7 @@ fi
 if [[ $(hostname -f) =~ "frontier" ]];
 then
     alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=8 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
+    function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
 fi
@@ -23,6 +23,8 @@ then
     alias mw="cd /scratch/bbsc/bwilfong"
     alias s="squeue -u bwilfong"
     alias l=". ./mfc.sh load -c d -m g"
+    function gint() { salloc -q debug -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-delta-gpu;}
+    function cint() { salloc -q debug -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
 fi
 
 if [[ $(hostname) =~ "phoenix" ]];
