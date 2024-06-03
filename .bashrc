@@ -23,8 +23,8 @@ then
     alias mw="cd /scratch/bbsc/bwilfong"
     alias s="squeue -u bwilfong"
     alias l=". ./mfc.sh load -c d -m g"
-    function gint() { salloc -q debug -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-delta-gpu;}
-    function cint() { salloc -q debug -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
+    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-delta-gpu;}
+    function cint() { salloc -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
 fi
 
 if [[ $(hostname) =~ "phoenix" ]];
