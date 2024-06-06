@@ -18,6 +18,14 @@ then
     alias s="squeue -u bwilfong3"
 fi
 
+if [[ $(hostname) =~ "andes" ]];
+then
+    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
+    alias l=". ./mfc.sh load -c f -m g"
+    alias s="squeue -u bwilfong3"
+fi
+
 if [[ $(hostname) =~ "delta" ]];
 then
     alias mw="cd /scratch/bbsc/bwilfong"
