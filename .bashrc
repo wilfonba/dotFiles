@@ -44,7 +44,7 @@ then
     alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
-    alias vim="./storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
 fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
