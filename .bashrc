@@ -35,7 +35,7 @@ then
     function cint() { salloc -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
 fi
 
-if [[ $(hostname) =~ "phoenix" ]];
+if [[ $(hostname) =~ "phoenix" ]] || [[$(hostmane) =~ "atl" ]];
 then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
