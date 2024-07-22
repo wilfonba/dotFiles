@@ -47,6 +47,19 @@ then
     alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
 fi
 
+if [[ $(hostname) =~ "crnch" ]];
+then
+    function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
+    function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
+    alias l=". ./mfc.sh load -c p -m g"
+    alias s="squeue -u bwilfong3"
+    alias mw="cd /nethome/bwilfong3/USERSCRATCH"
+    alias ag="sinfo | grep gpu | grep idle"
+    alias ac="sinfo | grep cpu | grep idle"
+fi
+
+
+
 if [ $(hostname) = "wingtip-gpu3" ];
 then
     alias mw="cd /fastscratch/bwilfong3"
