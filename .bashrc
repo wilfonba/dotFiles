@@ -56,6 +56,42 @@ then
     alias mw="cd /nethome/bwilfong3/USERSCRATCH"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
+
+    source_profile_files()
+    {
+        #We assume that all relevant modulefiles are specified
+        #in profile.d, regardless of the system
+        local PROFILE_DIR=/etc/profile.d
+
+        #Specify an array of files - note not all of these exist on all
+        #nodes
+        files=(
+        "$PROFILE_DIR/bash_completion.sh"
+        "$PROFILE_DIR/doca-runtime.sh"
+        "$PROFILE_DIR/doca-sdk-x86_64-linux-gnu.sh"
+        "$PROFILE_DIR/lmod.sh"
+        "$PROFILE_DIR/modules.sh"
+        "$PROFILE_DIR/slurm.sh"
+        "$PROFILE_DIR/y00_slurm.sh"
+        "$PROFILE_DIR/y01_ubuntu20_modules.sh"
+        "$PROFILE_DIR/y01_rhel8_modules.sh"
+        "$PROFILE_DIR/y02_rg_local_modules.sh"
+        )
+
+        local file
+
+        #Iterate over all the files and source ones that exist
+        for file in "${files[@]}"; do
+
+           if [[ -f "$file" ]]; then  # Check if the file exists and is a regular file
+             source "$file"
+               fi
+            done
+    }
+
+    #Call the main function
+    source_profile_files
+
 fi
 
 
