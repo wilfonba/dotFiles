@@ -47,7 +47,7 @@ then
     alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
 fi
 
-if [[ $(hostname) =~ "crnch" ]];
+if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
 then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
