@@ -45,6 +45,7 @@ then
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
     alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
 fi
 
 if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
