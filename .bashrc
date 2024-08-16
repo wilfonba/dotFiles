@@ -45,7 +45,7 @@ then
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
 
-    if [[ $(hostname) =~ "rh9" ]];
+    if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
     then
         alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
         export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
