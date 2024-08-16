@@ -51,7 +51,7 @@ then
         export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
     else
         alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
-        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vimRH7t/runtime
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vimRH7/runtime
     fi
 fi
 
