@@ -44,8 +44,15 @@ then
     alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
-    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
-    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+
+    if [[ $(hostname) =~ "rh9" ]];
+    then
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+    else
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vimRH7t /runtime
+    fi
 fi
 
 if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
