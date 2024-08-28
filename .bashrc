@@ -16,6 +16,7 @@ then
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
+    alias sst="squeue --start -u bwilfong3"
 fi
 
 if [[ $(hostname) =~ "andes" ]];
@@ -24,6 +25,7 @@ then
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
+    alias sst="squeue --start -u bwilfong3"
 fi
 
 if [[ $(hostname) =~ "delta" ]];
@@ -33,6 +35,7 @@ then
     alias l=". ./mfc.sh load -c d -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-delta-gpu;}
     function cint() { salloc -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
+    alias sst="squeue --start -u bwilfong"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
@@ -44,6 +47,7 @@ then
     alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
+    alias sst="squeue --start -u bwilfong3"
 
     if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
     then
@@ -64,6 +68,7 @@ then
     alias mw="cd /nethome/bwilfong3/USERSCRATCH"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
+    alias sst="squeue --start -u bwilfong3"
 
     source_profile_files()
     {
