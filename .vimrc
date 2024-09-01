@@ -158,5 +158,5 @@ colorscheme gruvbox
 nnoremap m i<CR><ESC>
 
 " Updating template defaults
-let g:tmpl_author_email = 'john.doe@example.com'
+let g:tmpl_author_email = 'bwilfong3@gatech.edu'
 let g:tmpl_author_name = 'Ben Wilfong'
