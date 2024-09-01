@@ -116,6 +116,11 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+cd ~/dotFiles/
+git pull
+cp ~/dotFiles/.bashrc ~/.bashrc
+cp ~/dotFiles/.vimrc ~/.vimrc
+
 alias d="ls"
 
 alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
