@@ -125,6 +125,10 @@ Plug 'morhetz/gruvbox'
 
 " Style suggests for academic and scientific texts
 Plug 'anufrievroman/vim-angry-reviewer'
+
+" Templates
+Plug 'tibabit/vim-templates'
+
 call plug#end()
 
 " Remove trailing white space with ;fw
