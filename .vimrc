@@ -151,3 +151,7 @@ colorscheme gruvbox
 
 " Move line down
 nnoremap m i<CR><ESC>
+
+" Updating template defaults
+let g:tmpl_author_email = 'john.doe@example.com'
+let g:tmpl_author_name = 'Ben Wilfong'
