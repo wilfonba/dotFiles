@@ -130,6 +130,4 @@ export PATH=$PATH:$VIM_HOME/bin
 
 alias c="clear"
 
-export CC=gcc-13
-export CXX=g++-13
-export FC=gfortran-13
+
