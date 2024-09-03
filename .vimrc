@@ -96,7 +96,7 @@ Plug 'lervag/vimtex'
 let g:tex_flavor='pdflatex'
 let g:vimtex_view_method='skim'
 let g:vimtex_quickfix_mode=0
-set conceallevel=1
+set conceallevel=0
 let g:tex_conceal='abdmg'
 
 " Add fancy bottom banner showing mode

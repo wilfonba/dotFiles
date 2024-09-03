@@ -130,4 +130,4 @@ export PATH=$PATH:$VIM_HOME/bin
 
 alias c="clear"
 
-
+cd ~/Documents
