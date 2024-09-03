@@ -18,6 +18,7 @@ set mouse=a
 set spell spelllang=en_us
 set nolist wrap linebreak breakat&vim
 set backspace=2
+set colorcolumn=80
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
