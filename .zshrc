@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 cd ~/dotFiles/
-git pull
+git pull --quiet
 cp ~/dotFiles/.bashrc ~/.bashrc
 cp ~/dotFiles/.vimrc ~/.vimrc
 
