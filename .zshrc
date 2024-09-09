@@ -131,3 +131,7 @@ export PATH=$PATH:$VIM_HOME/bin
 alias c="clear"
 
 cd ~/Documents
+
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.3
