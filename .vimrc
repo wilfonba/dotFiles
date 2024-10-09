@@ -130,6 +130,9 @@ Plug 'anufrievroman/vim-angry-reviewer'
 " Templates
 Plug 'tibabit/vim-templates'
 
+" Copilot
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 " Remove trailing white space with ;fw
