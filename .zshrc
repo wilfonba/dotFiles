@@ -132,9 +132,22 @@ alias c="clear"
 
 cd ~/Documents
 
+bindkey -v
+
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.3
 
 alias bw="bundle exec jekyll serve"
 
+# Set up vi mode prompt
+function zle-keymap-select {
+    if [[ ${KEYMAP} == vicmd ]]; then
+        # Normal mode (command mode)
+        echo -ne "\e[1;31m [NORMAL] \e[0m" # Red prompt in normal mode
+    else
+        # Insert mode
+        echo -ne "\e[1;32m [INSERT] \e[0m" # Green prompt in insert mode
+    fi
+}
+zle -N zle-keymap-select
