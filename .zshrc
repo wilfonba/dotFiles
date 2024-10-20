@@ -46,7 +46,7 @@ then
     alias sst="squeue --start -u bwilfong"
 fi
 
-if [[ $(sysctl -n machdep.cpu.brand_string) =~ "Apple M2" ]];
+if [[ $(uname) =~ "Darwin" ]];
 then
     alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
