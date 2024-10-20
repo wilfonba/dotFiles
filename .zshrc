@@ -46,10 +46,16 @@ then
     alias sst="squeue --start -u bwilfong"
 fi
 
-if [[ $(uname) =~ "Darwin" ]];
+if [[ $(uname) =~ "Darwin" ]]; # My laptop
 then
     alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
+    export PATH=$PATH:$VIM_HOME/bin
+    cd ~/Documents
+    source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+    source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+    chruby ruby-3.1.3
+    alias bw="bundle exec jekyll serve"
 fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
@@ -79,19 +85,21 @@ then
     fi
 fi
 
+
+# General aliases
 alias d="ls"
-
-export PATH=$PATH:$VIM_HOME/bin
-
+alias df="cd ~/dotFiles"
+alias bs="source ~/.bashrc"
+alias zs="source ~/.zshrc"
 alias c="clear"
-
-cd ~/Documents
+alias e="exit"
+alias si="sinfo"
+alias sq="squeue"
+alias h="cd ~/"
+alias sls="screen -l"
+alias sa="screen -r"
+alias sr="rocm-smi"
+alias ns="nvidia-smi"
 
 bindkey -v
-
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3
-
-alias bw="bundle exec jekyll serve"
 

@@ -104,20 +104,5 @@ then
 fi
 
 set -o vi
-
-# General aliases
-alias d="ls"
-alias df="cd ~/dotFiles"
-alias bs="source ~/.bashrc"
-alias c="clear"
-alias e="exit"
-alias si="sinfo"
-alias sq="squeue"
-alias h="cd ~/"
-alias sls="screen -l"
-alias sa="screen -r"
-alias sr="rocm-smi"
-alias ns="nvidia-smi"
-
 # Go to scratch directory
 mw
