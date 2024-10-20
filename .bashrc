@@ -107,13 +107,13 @@ then
 
 fi
 
-
-
 if [ $(hostname) = "wingtip-gpu3" ];
 then
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
 fi
+
+set -o vi
 
 # General aliases
 alias d="ls"
