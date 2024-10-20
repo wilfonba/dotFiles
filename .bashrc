@@ -28,16 +28,6 @@ then
     alias sst="squeue --start -u bwilfong3"
 fi
 
-if [[ $(hostname) =~ "delta" ]];
-then
-    alias mw="cd /scratch/bdiy/bwilfong"
-    alias s="squeue -u bwilfong"
-    alias l=". ./mfc.sh load -c d -m g"
-    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
-    function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
-    alias sst="squeue --start -u bwilfong"
-fi
-
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
 then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }

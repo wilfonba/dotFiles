@@ -1,6 +1,8 @@
+cd ~/dotFiles
 git pull --quiet
 cp ~/dotFiles/.bashrc ~/.bashrc
 cp ~/dotFiles/.vimrc ~/.vimrc
+cp ~/dotFiles/.p10k.zsh ~/.p10k.zsh
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -34,12 +36,50 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-cd ~/dotFiles/
+if [[ $(hostname) =~ "delta" ]];
+then
+    alias mw="cd /scratch/bdiy/bwilfong"
+    alias s="squeue -u bwilfong"
+    alias l=". ./mfc.sh load -c d -m g"
+    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
+    function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
+    alias sst="squeue --start -u bwilfong"
+fi
+
+if [[ $(sysctl -n machdep.cpu.brand_string) =~ "Apple M2" ]];
+then
+    alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
+    export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
+fi
+
+if [ $(hostname) = "wingtip-gpu3" ];
+then
+    alias mw="cd /fastscratch/bwilfong3"
+    alias s="nvidia-smi"
+fi
+
+if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
+then
+    function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
+    function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
+    alias l=". ./mfc.sh load -c p -m g"
+    alias s="squeue -u bwilfong3"
+    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+    alias ag="sinfo | grep gpu | grep idle"
+    alias ac="sinfo | grep cpu | grep idle"
+    alias sst="squeue --start -u bwilfong3"
+
+    if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
+    then
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+    else
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+    fi
+fi
 
 alias d="ls"
-
-alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
-export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
 
 export PATH=$PATH:$VIM_HOME/bin
 
