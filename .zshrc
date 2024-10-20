@@ -51,7 +51,7 @@ then
     alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
     export PATH=$PATH:$VIM_HOME/bin
-    cd ~/Documents
+    alias mw="cd ~/Documents"
     source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
     source /opt/homebrew/opt/chruby/share/chruby/auto.sh
     chruby ruby-3.1.3
@@ -170,3 +170,4 @@ alias ns="nvidia-smi"
 
 bindkey -v
 
+mw
