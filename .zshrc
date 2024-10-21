@@ -1,6 +1,6 @@
 cd ~/dotFiles
 git pull --quiet
-cp ~/dotFiles/.bashrc ~/.bashrc
+cp ~/dotFiles/.zshrc ~/.zshrc
 cp ~/dotFiles/.vimrc ~/.vimrc
 cp ~/dotFiles/.p10k.zsh ~/.p10k.zsh
 
