@@ -60,6 +60,7 @@ fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
 then
+    source /usr/share/lmod/lmod/init/zsh
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
 fi
