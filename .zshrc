@@ -1,6 +1,6 @@
 cd ~/dotFiles
 git pull --quiet
-cp ~/dotFiles/.bashrc ~/.bashrc
+cp ~/dotFiles/.zshrc ~/.zshrc
 cp ~/dotFiles/.vimrc ~/.vimrc
 cp ~/dotFiles/.p10k.zsh ~/.p10k.zsh
 
@@ -60,6 +60,7 @@ fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
 then
+    source /usr/share/lmod/lmod/init/zsh
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
 fi
