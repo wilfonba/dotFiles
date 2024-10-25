@@ -164,3 +164,10 @@ nnoremap m i<CR><ESC>
 " Updating template defaults
 let g:tmpl_author_email = 'bwilfong3@gatech.edu'
 let g:tmpl_author_name = 'Ben Wilfong'
+
+" Persistent folds between sessions
+augroup AutoSaveFolds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent loadview
+augroup END
