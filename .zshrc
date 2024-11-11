@@ -168,6 +168,7 @@ alias sls="screen -l"
 alias sa="screen -r"
 alias sr="rocm-smi"
 alias ns="nvidia-smi"
+alias cl="wc -l *"
 
 bindkey -v
 
