@@ -97,11 +97,37 @@ then
 
 fi
 
+if [[ $(hostname) =~ "delta" ]];
+then
+    alias mw="cd /scratch/bdiy/bwilfong"
+    alias s="squeue -u bwilfong"
+    alias l=". ./mfc.sh load -c d -m g"
+    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
+    function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
+    alias sst="squeue --start -u bwilfong"
+fi
+
 if [ $(hostname) = "wingtip-gpu3" ];
 then
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
 fi
+
+# General aliases
+alias d="ls"
+alias df="cd ~/dotFiles"
+alias bs="source ~/.bashrc"
+alias zs="source ~/.zshrc"
+alias c="clear"
+alias e="exit"
+alias si="sinfo"
+alias sq="squeue"
+alias h="cd ~/"
+alias sls="screen -l"
+alias sa="screen -r"
+alias sr="rocm-smi"
+alias ns="nvidia-smi"
+alias cl="wc -l *"
 
 set -o vi
 # Go to scratch directory
