@@ -1,13 +1,18 @@
-# Fetching latest .bashrc
-if shopt -q login_shell;
-then
-    cd ~/dotFiles
-    git pull
+### Get the parent process of the current shell
+ppid=$(ps -o ppid= -p $$)
+parent_process=$(ps -o comm= -p "$ppid")
 
-    \cp ~/dotFiles/.bashrc ~/.bashrc
-    \cp ~/dotFiles/.vimrc ~/.vimrc
-fi
+if [ "$parent_process" != "rsync" ]; then
+    # Fetching latest .bashrc
+    if shopt -q login_shell;
+    then
+        cd ~/dotFiles
+        git pull
 
+        \cp ~/dotFiles/.bashrc ~/.bashrc
+        \cp ~/dotFiles/.vimrc ~/.vimrc
+    fi
+else
 
 # Computer specific aliases
 if [[ $(hostname -f) =~ "frontier" ]];
@@ -130,5 +135,9 @@ alias ns="nvidia-smi"
 alias cl="wc -l *"
 
 set -o vi
-# Go to scratch directory
-mw
+
+if [ "$parent_process" != "rsync" ]; then
+    # Go to scratch directory
+    mw
+else
+
