@@ -48,7 +48,7 @@ fi
 
 if [[ $(uname) =~ "Darwin" ]]; # My laptop
 then
-    alias vim="/opt/homebrew/Cellar/macvim/9.1.0/bin/vim"
+    alias vim="/opt/homebrew/Cellar/macvim/9.1.0727/bin/vim" 
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
     export PATH=$PATH:$VIM_HOME/bin
     alias mw="cd ~/Documents"

@@ -133,6 +133,9 @@ Plug 'tibabit/vim-templates'
 " Copilot
 Plug 'github/copilot.vim'
 
+" Git blame
+Plug 'zivyangll/git-blame.vim'
+
 call plug#end()
 
 " Remove trailing white space with ;fw
