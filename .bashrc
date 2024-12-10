@@ -107,6 +107,17 @@ then
     alias sst="squeue --start -u bwilfong"
 fi
 
+if [[ $(hostname) =~ "gh-login" ]];
+then
+    alias mw="cd /work/nvme/bbsc/bwilfong"
+    alias s="squeue -u bwilfong"
+    alias l=". ./mfc.sh load -c da -m g"
+    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-delta-gpu;}
+    function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bbsc-delta-cpu;}
+    alias sst="squeue --start -u bwilfong"
+fi
+
+
 if [ $(hostname) = "wingtip-gpu3" ];
 then
     alias mw="cd /fastscratch/bwilfong3"
