@@ -8,7 +8,6 @@ then
     \cp ~/dotFiles/.vimrc ~/.vimrc
 fi
 
-
 # Computer specific aliases
 if [[ $(hostname -f) =~ "frontier" ]];
 then
@@ -35,8 +34,6 @@ then
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
     alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
-    alias ag="sinfo | grep gpu | grep idle"
-    alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
 
     if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
@@ -56,8 +53,6 @@ then
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
     alias mw="cd /nethome/bwilfong3/USERSCRATCH"
-    alias ag="sinfo | grep gpu | grep idle"
-    alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
 
     source_profile_files()
@@ -107,7 +102,7 @@ then
     alias sst="squeue --start -u bwilfong"
 fi
 
-if [[ $(hostname) =~ "gh-login" ]];
+if [[ $(hostname) =~ "gh-login" ]] || [[ $(hostname) =~ "hsn.cm.delta.internal.ncsa.edu" ]];
 then
     alias mw="cd /work/nvme/bbsc/bwilfong"
     alias s="squeue -u bwilfong"
@@ -139,6 +134,9 @@ alias sa="screen -r"
 alias sr="rocm-smi"
 alias ns="nvidia-smi"
 alias cl="wc -l *"
+
+alias ag="sinfo | grep gpu | grep idle"
+alias ac="sinfo | grep cpu | grep idle"
 
 set -o vi
 # Go to scratch directory
