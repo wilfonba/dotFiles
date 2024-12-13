@@ -106,8 +106,8 @@ if [[ $(hostname) =~ "gh-login" ]] || [[ $(hostname) =~ "hsn.cm.delta.internal.n
 then
     alias mw="cd /work/nvme/bbsc/bwilfong"
     alias s="squeue -u bwilfong"
-    alias l=". ./mfc.sh load -c da -m g"
-    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-dtai-gh;}
+    alias l=". ./mfc.sh load -c dai -m g"
+    function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-dtai-gh -p ghx4-interactive;}
     function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bbsc-dtai-gh;}
     alias sst="squeue --start -u bwilfong"
 fi
