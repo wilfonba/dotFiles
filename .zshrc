@@ -169,6 +169,8 @@ alias sa="screen -r"
 alias sr="rocm-smi"
 alias ns="nvidia-smi"
 alias cl="wc -l *"
+alias gppd="g++ -std=c++17 -O2 -DNDEBUG"
+alias gpp="g++ -std=c++17 -ggdb"
 
 bindkey -v
 
