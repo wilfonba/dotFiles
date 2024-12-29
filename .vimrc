@@ -16,7 +16,7 @@ set hlsearch
 set history=1000
 set mouse=a
 set spell spelllang=en_us
-set nolist wrap linebreak breakat&vim
+set nolist wrap
 set backspace=2
 set colorcolumn=80
 
