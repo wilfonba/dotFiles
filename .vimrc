@@ -78,19 +78,6 @@ nnoremap <Leader>W      :w!<cr>
 nnoremap <Leader>x      :x<cr>
 nnoremap <Leader>X      :x!<cr>
 
-" Relative or absolute number lines
-function! NumberToggle()
-    if(&nu == 1)
-        set nu!
-        set rnu
-    else
-        set nornu
-        set nu
-    endif
-endfunction
-
-nnoremap <C-n> :call NumberToggle()<CR>
-
 " A collection of plugins that provide quality of life improvements
 call plug#begin()
 
@@ -138,6 +125,9 @@ Plug 'github/copilot.vim'
 " Git blame
 Plug 'zivyangll/git-blame.vim'
 
+" Vim-multiple-cursors
+Plug 'terryma/vim-multiple-cursors'
+
 call plug#end()
 
 " Remove trailing white space with ;fw
@@ -171,8 +161,23 @@ let g:tmpl_author_email = 'bwilfong3@gatech.edu'
 let g:tmpl_author_name = 'Ben Wilfong'
 
 " Persistent folds between sessions
-augroup AutoSaveFolds
+augroup AutoSaveGroup
   autocmd!
-  autocmd BufWinLeave * mkview
-  autocmd BufWinEnter * silent loadview
-augroup END
+  " view files are about 500 bytes
+  " bufleave but not bufwinleave captures closing 2nd tab
+  " nested is needed by bufwrite* (if triggered via other autocmd)
+  " BufHidden for compatibility with `set hidden`
+  autocmd BufWinLeave,BufLeave,BufWritePost,BufHidden,QuitPre ?* nested silent! mkview!
+  autocmd BufWinEnter ?* silent! loadview
+augroup end
+
+set viewoptions=folds,cursor
+set sessionoptions=folds
+
+" Angry reviewer options
+let g:AngryReviewerEnglish = 'american'
+nnoremap <leader>ar :AngryReviewer<cr>
+
+" Auto-pairs unmapping
+let g:AutoPairsMapBS = 0  " Disable backspace remapping
+let g:AutoPairsMapCR = 0  " Disable enter remapping
