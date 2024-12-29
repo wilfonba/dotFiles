@@ -1,3 +1,28 @@
+" A collection of plugins that provide quality of life improvements
+call plug#begin()
+    Plug 'lervag/vimtex'
+        let g:tex_flavor='pdflatex'
+        let g:vimtex_view_method='skim'
+        let g:vimtex_quickfix_mode=0
+        set conceallevel=0
+        let g:tex_conceal='abdmg'
+    Plug 'vim-airline/vim-airline'
+    Plug 'kien/ctrlp.vim'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'scrooloose/nerdcommenter'
+    Plug 'bronson/vim-trailing-whitespace'
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'luochen1990/rainbow'
+    Plug 'morhetz/gruvbox'
+    Plug 'anufrievroman/vim-angry-reviewer'
+    Plug 'tibabit/vim-templates'
+    Plug 'github/copilot.vim'
+    Plug 'zivyangll/git-blame.vim'
+    Plug 'terryma/vim-multiple-cursors'
+    Plug 'shime/vim-livedown'
+call plug#end()
+
+
 filetype on
 filetype plugin on
 filetype indent on
@@ -78,57 +103,6 @@ nnoremap <Leader>W      :w!<cr>
 nnoremap <Leader>x      :x<cr>
 nnoremap <Leader>X      :x!<cr>
 
-" A collection of plugins that provide quality of life improvements
-call plug#begin()
-
-" Enable writing LaTeX in vim
-Plug 'lervag/vimtex'
-let g:tex_flavor='pdflatex'
-let g:vimtex_view_method='skim'
-let g:vimtex_quickfix_mode=0
-set conceallevel=0
-let g:tex_conceal='abdmg'
-
-" Add fancy bottom banner showing mode
-Plug 'vim-airline/vim-airline'
-
-" Search for files
-Plug 'kien/ctrlp.vim'
-
-" Themes for vim-airline
-Plug 'vim-airline/vim-airline-themes'
-
-" Keybindings for toggling comments on lines or groups of lines
-Plug 'scrooloose/nerdcommenter'
-
-" Highlight trailing white space in red
-Plug 'bronson/vim-trailing-whitespace'
-
-" Automatically place second delimiter
-Plug 'jiangmiao/auto-pairs'
-
-" Colorful delimeters
-Plug 'luochen1990/rainbow'
-
-" gruvbox theme
-Plug 'morhetz/gruvbox'
-
-" Style suggests for academic and scientific texts
-Plug 'anufrievroman/vim-angry-reviewer'
-
-" Templates
-Plug 'tibabit/vim-templates'
-
-" Copilot
-Plug 'github/copilot.vim'
-
-" Git blame
-Plug 'zivyangll/git-blame.vim'
-
-" Vim-multiple-cursors
-Plug 'terryma/vim-multiple-cursors'
-
-call plug#end()
 
 " Remove trailing white space with ;fw
 map <leader>fw :FixWhitespace <enter>
@@ -181,3 +155,6 @@ nnoremap <leader>ar :AngryReviewer<cr>
 " Auto-pairs unmapping
 let g:AutoPairsMapBS = 0  " Disable backspace remapping
 let g:AutoPairsMapCR = 0  " Disable enter remapping
+
+" Livedown preview toggle
+nmap gm :LivedownToggle<CR>
