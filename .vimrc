@@ -108,7 +108,7 @@ nnoremap <Leader>X      :x!<cr>
 map <leader>fw :FixWhitespace <enter>
 
 " Set color scheme for bottom banner
-let g:airline_theme='distinguished'
+let g:airline_theme='gruvbox'
 
 " Open ctrlp file search
 let g:ctrlp_map = 'ns'
