@@ -77,17 +77,12 @@ for mapcmd in ['nnoremap', 'tnoremap']
     execute mapcmd . ' <leader>l <C-w><up>'
     execute mapcmd . ' <leader>j <c-W><right>'
     execute mapcmd . ' <leader>k <C-w><down>'
-    " Moving Panes
-    execute mapcmd . ' <leader>H <C-w>J'
-    execute mapcmd . ' <leader>L <C-w>K'
-    execute mapcmd . ' <leader>J <c-w>L'
-    execute mapcmd . ' <leader>K <C-w>J'
     " Resizing Panes
-    execute mapcmd . '<leader>h <c-w>>'
-    execute mapcmd . '<leader>j <c-w><'
-    execute mapcmd . '<leader>l <c-w>-'
-    execute mapcmd . '<leader>k <c-w>+'
-    execute mapcmd . '<leader>= <c-w>='
+    execute mapcmd . '<leader>h <c-w>5>'
+    execute mapcmd . '<leader>j <c-w>5<'
+    execute mapcmd . '<leader>l <c-w>5-'
+    execute mapcmd . '<leader>k <c-w>5+'
+    execute mapcmd . '<leader>g <c-w>='
 endfor
 
 " Splitting Planes
