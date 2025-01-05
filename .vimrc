@@ -18,7 +18,7 @@ call plug#begin()
     Plug 'morhetz/gruvbox'
 if exists('g:vim_ang_rev') && g:vim_ang_rev
     Plug 'anufrievroman/vim-angry-reviewer'
-end if
+endif
     Plug 'tibabit/vim-templates'
     Plug 'github/copilot.vim'
     Plug 'zivyangll/git-blame.vim'
