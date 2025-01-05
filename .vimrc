@@ -1,3 +1,5 @@
+let g:vim_ang_rev = getenv('VIM_ANG_REV')
+
 " A collection of plugins that provide quality of life improvements
 call plug#begin()
     Plug 'lervag/vimtex'
@@ -14,7 +16,9 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     Plug 'luochen1990/rainbow'
     Plug 'morhetz/gruvbox'
+if exists('g:vim_ang_rev') && g:vim_ang_rev
     Plug 'anufrievroman/vim-angry-reviewer'
+end if
     Plug 'tibabit/vim-templates'
     Plug 'github/copilot.vim'
     Plug 'zivyangll/git-blame.vim'
