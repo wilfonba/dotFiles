@@ -27,27 +27,22 @@ then
     alias sst="squeue --start -u bwilfong3"
 fi
 
-if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]] || [[ $(hostname) =~ "ice" ]];
+if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
 then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
+    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
     alias sst="squeue --start -u bwilfong3"
 
-    if [[ $(hostname) =~ "phoenix" ]];
+    if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
     then
-        alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
-        if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
-        then
-            alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
-            export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-        else
-            alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
-            export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-        fi
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
     else
-        alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
+        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
     fi
 fi
 
