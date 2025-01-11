@@ -47,7 +47,8 @@ then
             export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
         fi
     else
-        alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+        alias vim="/bin/vim"
+        alias mw="cd /home/hice1/bwilfong3/scratch"
     fi
 fi
 
