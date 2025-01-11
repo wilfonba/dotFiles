@@ -50,10 +50,9 @@ if [[ $(hostname) =~ "ice" ]];
 then
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
-    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+    alias mw="cd /home/hice1/bwilfong3/scratch"
     alias sst="squeue --start -u bwilfong3"
 fi
-
 
 if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
 then
