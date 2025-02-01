@@ -89,14 +89,14 @@ then
     alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
 
-    if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
-    then
-        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
-        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    else
-        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
-        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    fi
+    #if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
+    #then
+    #    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
+    #    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+    #else
+    #    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
+    #    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
+    #fi
     export VIM_ANG_REV="1"
 
 fi
