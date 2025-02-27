@@ -75,7 +75,7 @@ then
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
     export VIM_ANG_REV="1"
-
+    export TMPDIR=$HOME/tmp
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
@@ -98,7 +98,6 @@ then
         export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
     fi
     export VIM_ANG_REV="1"
-
 fi
 
 if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
@@ -148,7 +147,6 @@ then
     source_profile_files
 
     export VIM_ANG_REV="1"
-
 fi
 
 if [[ $(hostname -f) =~ "frontier" ]];
@@ -159,7 +157,6 @@ then
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
     export VIM_ANG_REV="1"
-
 fi
 
 if [[ $(hostname) =~ "andes" ]];
@@ -170,12 +167,10 @@ then
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
     export VIM_ANG_REV="1"
-
 fi
 
 # General aliases
 alias d="ls"
-alias df="cd ~/dotFiles"
 alias bs="source ~/.bashrc"
 alias zs="source ~/.zshrc"
 alias c="clear"
@@ -194,3 +189,4 @@ alias gpp="g++ -std=c++17 -ggdb"
 bindkey -v
 
 mw
+
