@@ -24,6 +24,7 @@ endif
     Plug 'zivyangll/git-blame.vim'
     Plug 'terryma/vim-multiple-cursors'
     Plug 'shime/vim-livedown'
+    Plug 'Yggdroot/indentLine'
 call plug#end()
 
 
