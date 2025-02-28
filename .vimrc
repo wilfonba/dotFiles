@@ -27,6 +27,7 @@ endif
     Plug 'Yggdroot/indentLine'
 call plug#end()
 
+runtime macros/matchit.vim
 
 filetype on
 filetype plugin on
