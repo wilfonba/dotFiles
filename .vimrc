@@ -52,6 +52,7 @@ set backspace=2
 set colorcolumn=80
 
 autocmd BufRead,BufNewFile *.out set filetype=txt
+autocmd FileType tex let g:indentLine_setConceal = 0
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -160,4 +161,4 @@ let g:AutoPairsMapCR = 0  " Disable enter remapping
 " Livedown preview toggle
 nmap gm :LivedownToggle<CR>
 
-let g:indentLine_conceallevel = 0
+
