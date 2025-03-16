@@ -159,3 +159,5 @@ let g:AutoPairsMapCR = 0  " Disable enter remapping
 
 " Livedown preview toggle
 nmap gm :LivedownToggle<CR>
+
+let g:indentLine_conceallevel = 0
