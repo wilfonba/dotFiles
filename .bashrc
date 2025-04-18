@@ -35,15 +35,6 @@ then
     alias s="squeue -u bwilfong3"
     alias mw="cd /storage/scratch1/6/bwilfong3"
     alias sst="squeue --start -u bwilfong3"
-
-    if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
-    then
-        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
-        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    else
-        alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
-        export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    fi
 fi
 
 if [[ $(hostname) =~ "ice" ]];
