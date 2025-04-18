@@ -33,7 +33,7 @@ then
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
-    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+    alias mw="cd /storage/scratch1/6/bwilfong3"
     alias sst="squeue --start -u bwilfong3"
 
     if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
