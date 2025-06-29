@@ -76,6 +76,7 @@ then
     alias s="nvidia-smi"
     export VIM_ANG_REV="1"
     export TMPDIR=$HOME/tmp
+    source ~/fastScratch/pythonEnv/bin/activate
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
