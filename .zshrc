@@ -77,6 +77,8 @@ then
     export VIM_ANG_REV="1"
     export TMPDIR=$HOME/tmp
     source ~/fastScratch/pythonEnv/bin/activate
+    alias pvserver="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvserver"
+    alias pvpython="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvpython"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
@@ -90,14 +92,6 @@ then
     alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
 
-    #if [[ $(grep VERSION_ID /etc/os-release) =~ "9.4" ]];
-    #then
-    #    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vim/src/vim"
-    #    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    #else
-    #    alias vim="/storage/home/hcoda1/6/bwilfong3/software/vimRH7/src/vim"
-    #    export VIMRUNTIME=/storage/home/hcoda1/6/bwilfong3/software/vim/runtime
-    #fi
     export VIM_ANG_REV="1"
 fi
 
