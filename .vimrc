@@ -8,6 +8,7 @@ call plug#begin()
         let g:vimtex_quickfix_mode=0
         set conceallevel=0
         let g:tex_conceal='abdmg'
+        let g:vimtex_compiler_method = 'latexmk'
     Plug 'vim-airline/vim-airline'
     Plug 'kien/ctrlp.vim'
     Plug 'vim-airline/vim-airline-themes'
