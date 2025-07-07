@@ -19,6 +19,14 @@ then
     export PATH="/ccs/home/bwilfong3/node-v22.16.0-linux-x64/bin:$PATH"
 fi
 
+if [[ $(hostname -f) =~ "ufhpc" ]];
+then
+    alias mw="cd"
+    alias l=". ./mfc.sh load -c h -m g"
+    alias s="squeue -u bwilfong"
+    alias sst="squeue --start -u bwilfong"
+fi
+
 if [[ $(hostname) =~ "andes" ]];
 then
     alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
