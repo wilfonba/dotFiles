@@ -162,4 +162,6 @@ let g:AutoPairsMapCR = 0  " Disable enter remapping
 " Livedown preview toggle
 nmap gm :LivedownToggle<CR>
 
-
+" Python build shortcut
+imap <F1> <Esc>:w<CR>:!clear;python %<CR>
+nmap <F1> <Esc>:w<CR>:!clear;python %<CR>
