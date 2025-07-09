@@ -79,6 +79,10 @@ then
     source ~/fastScratch/pythonEnv/bin/activate
     alias pvserver="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvserver"
     alias pvpython="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvpython"
+
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    export PATH="$HOME/local/vim/bin:$PATH"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
