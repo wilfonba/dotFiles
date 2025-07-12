@@ -165,3 +165,9 @@ nmap gm :LivedownToggle<CR>
 " Python build shortcut
 imap <F1> <Esc>:w<CR>:!clear;python %<CR>
 nmap <F1> <Esc>:w<CR>:!clear;python %<CR>
+
+imap <F2> <Esc>:w<CR>:!clear;pdflatex %<CR>
+nmap <F2> <Esc>:w<CR>:!clear;pdflatex %<CR>
+
+imap <F3> <Esc>:w<CR>:!clear;open %:r.pdf<CR>
+nmap <F3> <Esc>:w<CR>:!clear;open %:r.pdf<CR>
