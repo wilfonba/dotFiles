@@ -1,8 +1,8 @@
 # Fetching latest .bashrc
-if shopt -q login_shell;
+if ping -q -c 1 -W 2 8.8.8.8 > /dev/null;
 then
     cd ~/dotFiles
-    git pull
+    git pull --quiet
 
     \cp ~/dotFiles/.bashrc ~/.bashrc
     \cp ~/dotFiles/.vimrc ~/.vimrc
