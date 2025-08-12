@@ -129,6 +129,7 @@ then
     alias s="squeue -u bwilfong"
     alias sst="squeue --start -u bwilfong"
     alias us="uenv start --view=modules icon/25.2:v1@santis"
+    alias up="uenv start --view=develop /capstor/scratch/cscs/bwilfong/uenvs/paraview-silo-gh200-egl-5.13.2-2025-08-07.squashfs"
 fi
 
 
