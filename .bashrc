@@ -125,7 +125,7 @@ if [[ $(hostname -f) =~ "daint" ]];
 then
     alias mw="cd /capstor/scratch/cscs/bwilfong"
     function gint() { salloc -t 00:$3:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A g183;}
-    alias l=". ./mfc.sh load -c f -m s"
+    alias l=". ./mfc.sh load -c san -m g"
     alias s="squeue -u bwilfong"
     alias sst="squeue --start -u bwilfong"
     alias us="uenv start --view=modules icon/25.2:v1@santis"
