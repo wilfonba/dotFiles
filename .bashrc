@@ -146,6 +146,7 @@ alias cl="wc -l *"
 
 alias ag="sinfo | grep gpu | grep idle"
 alias ac="sinfo | grep cpu | grep idle"
+alias vim="vim -u ~/.vimrc"
 
 set -o vi
 # Go to scratch directory

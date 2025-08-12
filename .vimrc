@@ -1,3 +1,9 @@
+" Use my vimrc so things are messed up
+let g:skip_global_vimrc = 1     " Skip /etc/vimrc
+let g:skip_defaults_vim = 1     " Skip defaults.vim
+set all&
+set nocompatible
+
 let g:vim_ang_rev = getenv('VIM_ANG_REV')
 
 " A collection of plugins that provide quality of life improvements

@@ -185,8 +185,8 @@ alias ns="nvidia-smi"
 alias cl="wc -l *"
 alias gppd="g++ -std=c++17 -O2 -DNDEBUG"
 alias gpp="g++ -std=c++17 -ggdb"
+alias vim="vim -u ~/.vimrc"
 
 bindkey -v
-
 mw
 
