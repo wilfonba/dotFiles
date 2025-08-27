@@ -22,7 +22,9 @@ fi
 
 if [[ $(hostname -f) =~ "ufhpc" ]];
 then
-    alias mw="cd"
+    alias mw="cd /blue/bala1s/bwilfong"
+    function gint() { salloc -t $3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest --gres=gpu:b200:1 -A bala1s;}
+    function cint() { salloc -t $3:00:00 -N $1 --ntasks-per-node=$2 -p hpg-milan -A bala1s;}
     alias l=". ./mfc.sh load -c h -m g"
     alias s="squeue -u bwilfong"
     alias sst="squeue --start -u bwilfong"
