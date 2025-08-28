@@ -4,8 +4,6 @@ let g:skip_defaults_vim = 1     " Skip defaults.vim
 set all&
 set nocompatible
 
-let g:vim_ang_rev = getenv('VIM_ANG_REV')
-
 " A collection of plugins that provide quality of life improvements
 call plug#begin()
     Plug 'lervag/vimtex'
@@ -23,9 +21,7 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     Plug 'luochen1990/rainbow'
     Plug 'morhetz/gruvbox'
-if exists('g:vim_ang_rev') && g:vim_ang_rev
     Plug 'anufrievroman/vim-angry-reviewer'
-endif
     Plug 'tibabit/vim-templates'
     Plug 'github/copilot.vim'
     Plug 'zivyangll/git-blame.vim'
@@ -40,6 +36,7 @@ filetype on
 filetype plugin on
 filetype indent on
 syntax on
+set textwidth=0
 set number
 set cursorline
 set shiftwidth=4

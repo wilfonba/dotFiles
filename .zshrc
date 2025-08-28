@@ -44,7 +44,6 @@ then
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
     function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
     alias sst="squeue --start -u bwilfong"
-    export VIM_ANG_REV="0"
 fi
 
 if [[ $(uname) =~ "Darwin" ]]; # My laptop
@@ -66,7 +65,6 @@ then
         fi
         rm -f -- "$tmp"
     }
-    export VIM_ANG_REV="1"
 fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
@@ -74,7 +72,6 @@ then
     source /usr/share/lmod/lmod/init/zsh
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
-    export VIM_ANG_REV="1"
     export TMPDIR=$HOME/tmp
     source ~/fastScratch/pythonEnv/bin/activate
     alias pvserver="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvserver"
@@ -95,8 +92,6 @@ then
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
-
-    export VIM_ANG_REV="1"
 fi
 
 if [[ $(hostname) =~ "crnch" ]] || [[ $(hostname) =~ "uwing" ]];
@@ -144,8 +139,6 @@ then
 
     #Call the main function
     source_profile_files
-
-    export VIM_ANG_REV="1"
 fi
 
 if [[ $(hostname -f) =~ "frontier" ]];
@@ -156,7 +149,6 @@ then
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
-    export VIM_ANG_REV="1"
 fi
 
 if [[ $(hostname) =~ "andes" ]];
@@ -166,7 +158,6 @@ then
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
-    export VIM_ANG_REV="1"
 fi
 
 # General aliases
