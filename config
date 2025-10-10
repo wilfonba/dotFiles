@@ -27,10 +27,6 @@ Host bridges2
   HostName bridges2.psc.edu
   User bwilfong
 
-Host summit
-  HostName summit.olcf.ornl.gov
-  User bwilfong3
-
 Host rg
   HostName rg-login.crnch.gatech.edu
   User bwilfong3
@@ -38,6 +34,12 @@ Host rg
 Host carpenter
   HostName carpenter.erdc.hpc.mi
   User bwilfong
+
+Host cosmos
+  HostName login01.cosmos.sdsc.edu
+  User bwilfong
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
 
 Host ice
   HostName login-ice.pace.gatech.edu
@@ -55,6 +57,7 @@ Host ela
     HostName ela.cscs.ch
     User bwilfong
     IdentityFile ~/.ssh/cscs-key
+
 Host daint
     HostName daint.alps.cscs.ch
     User bwilfong
@@ -62,6 +65,7 @@ Host daint
     ProxyJump ela
     AddKeysToAgent yes
     ForwardAgent yes
+
 Host santis
     HostName santis.alps.cscs.ch
     User bwilfong
@@ -74,5 +78,4 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
-
 

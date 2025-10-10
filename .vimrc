@@ -53,7 +53,7 @@ set mouse=a
 set spell spelllang=en_us
 set nolist wrap
 set backspace=2
-set colorcolumn=80
+set colorcolumn=132
 
 autocmd BufRead,BufNewFile *.out set filetype=txt
 autocmd FileType tex let g:indentLine_setConceal = 0
