@@ -20,6 +20,13 @@ then
     export PATH="/ccs/home/bwilfong3/node-v22.16.0-linux-x64/bin:$PATH"
 fi
 
+if [[ $(hostname -f) =~ "tuolumne" ]];
+then
+    alias mw="cd /p/lustre5/wilfong1"
+    alias mww="cd /usr/workspace/wilfong1"
+    alias l=". ./mfc.sh load -c t -m g"
+fi
+
 if [[ $(hostname -f) =~ "ufhpc" ]];
 then
     alias mw="cd /blue/bala1s/bwilfong"
