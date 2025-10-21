@@ -11,10 +11,12 @@ Host deltaAI
 
 Host frontier
   HostName frontier.olcf.ornl.gov
+  IdentityFile ~/.ssh/id_ed25519
   User bwilfong3
 
 Host andes
   HostName andes.olcf.ornl.gov
+  IdentityFile ~/.ssh/id_ed25519
   User bwilfong3
 
 Host wingtip
@@ -44,10 +46,14 @@ Host cosmos
 Host ice
   HostName login-ice.pace.gatech.edu
   User bwilfong3
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
 
 Host phoenix
   HostName login-phoenix.pace.gatech.edu
   User bwilfong3
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
 
 Host hiper
   HostName hpg.rc.ufl.edu
@@ -70,9 +76,13 @@ Host santis
     HostName santis.alps.cscs.ch
     User bwilfong
     IdentityFile ~/.ssh/cscs-key
-    ProxyJump ela
+   ProxyJump ela
     AddKeysToAgent yes
     ForwardAgent yes
+
+Host tuo
+    HostName tuo.llnl.gov
+    User wilfong1
 
 Host *
   AddKeysToAgent yes
