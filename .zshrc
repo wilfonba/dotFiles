@@ -178,6 +178,9 @@ alias gppd="g++ -std=c++17 -O2 -DNDEBUG"
 alias gpp="g++ -std=c++17 -ggdb"
 alias vim="vim -u ~/.vimrc"
 
+
+function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
+
 bindkey -v
 mw
 

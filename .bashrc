@@ -146,6 +146,7 @@ if [ $(hostname) = "wingtip-gpu3" ];
 then
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
+    export PATH=$HOME/.local/bin:$PATH
 fi
 
 # General aliases
@@ -167,6 +168,8 @@ alias cl="wc -l *"
 alias ag="sinfo | grep gpu | grep idle"
 alias ac="sinfo | grep cpu | grep idle"
 alias vim="vim -u ~/.vimrc"
+
+function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
 
 set -o vi
 # Go to scratch directory
