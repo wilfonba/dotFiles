@@ -56,7 +56,6 @@ then
     source /opt/homebrew/opt/chruby/share/chruby/auto.sh
     chruby ruby-3.1.3
     alias bw="bundle exec jekyll serve"
-    alias python3="/opt/homebrew/bin/python3"
 
     function y() {
         local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
