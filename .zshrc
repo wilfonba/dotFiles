@@ -174,8 +174,8 @@ alias sa="screen -r"
 alias sr="rocm-smi"
 alias ns="nvidia-smi"
 alias cl="wc -l *"
-alias gpp="g++ -std=c++17 -O2 -DNDEBUG"
-alias gppd="g++ -std=c++17 -ggdb -pedantic-errors"
+alias gpp="g++ -std=c++20 -O2 -DNDEBUG"
+alias gppd="g++ -std=c++20 -ggdb -pedantic-errors"
 alias vim="vim -u ~/.vimrc"
 
 
