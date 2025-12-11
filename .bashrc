@@ -24,7 +24,20 @@ if [[ $(hostname -f) =~ "tuolumne" ]];
 then
     alias mw="cd /p/lustre5/wilfong1"
     alias mww="cd /usr/workspace/wilfong1"
-    alias l=". ./mfc.sh load -c t -m g"
+    alias l=". ./mfc.sh load -c tuo -m g"
+    function gint() { flux alloc -t $2 -N $1 -q pdebug; }
+    alias s="flux jobs"
+    stty erase '^?' # Working backspace in vim
+fi
+
+if [[ $(hostname -f) =~ "tioga" ]];
+then
+    alias mw="cd /p/lustre1/wilfong1"
+    alias mwt="cd /p/lustre2/wilfong1"
+    alias l=". ./mfc.sh load -c tga -m g"
+    function gint() { flux alloc -t $2 -N $1 -q pdebug; }
+    alias s="flux jobs"
+    stty erase '^?' # Working backspace in vim
 fi
 
 if [[ $(hostname -f) =~ "ufhpc" ]];
