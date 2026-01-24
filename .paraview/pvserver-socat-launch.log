@@ -1,0 +1,92 @@
+2025/08/23 15:07:02 socat[1429764] N listening on AF=2 172.30.17.16:62498
+2025/08/23 15:07:09 socat[1429764] N accepting connection from AF=2 172.30.17.16:56936 on AF=2 172.30.17.16:62498
+2025/08/23 15:07:09 socat[1429764] N opening connection to AF=2 160.91.202.84:62498
+2025/08/23 15:07:09 socat[1429764] N successfully connected from local address AF=2 172.30.17.16:58510
+2025/08/23 15:07:09 socat[1429764] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/08/23 16:01:29 socat[1429764] N socket 2 (fd 6) is at EOF
+2025/08/23 16:01:29 socat[1429764] N exiting with status 0
+2025/09/28 12:07:44 socat[1125976] N listening on AF=2 172.30.17.175:35450
+2025/09/28 12:07:50 socat[1125976] N accepting connection from AF=2 172.30.17.175:59286 on AF=2 172.30.17.175:35450
+2025/09/28 12:07:50 socat[1125976] N opening connection to AF=2 160.91.202.82:35450
+2025/09/28 12:07:50 socat[1125976] N successfully connected from local address AF=2 172.30.17.175:47852
+2025/09/28 12:07:50 socat[1125976] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/09/28 13:21:58 socat[1125976] N socket 2 (fd 6) is at EOF
+2025/09/28 13:21:58 socat[1125976] N exiting with status 0
+2025/11/02 13:37:52 socat[3766036] N listening on AF=2 172.30.17.89:37474
+2025/11/02 13:38:01 socat[3766036] N accepting connection from AF=2 172.30.17.89:44188 on AF=2 172.30.17.89:37474
+2025/11/02 13:38:01 socat[3766036] N opening connection to AF=2 160.91.202.81:37474
+2025/11/02 13:38:01 socat[3766036] N successfully connected from local address AF=2 172.30.17.89:60952
+2025/11/02 13:38:01 socat[3766036] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/11/02 13:38:42 socat[3766036] N socket 2 (fd 6) is at EOF
+2025/11/02 13:40:32 socat[3766634] N listening on AF=2 172.30.17.89:35014
+2025/11/02 13:40:38 socat[3766634] N accepting connection from AF=2 172.30.17.89:43252 on AF=2 172.30.17.89:35014
+2025/11/02 13:40:38 socat[3766634] N opening connection to AF=2 160.91.202.87:35014
+2025/11/02 13:40:38 socat[3766634] N successfully connected from local address AF=2 172.30.17.89:58406
+2025/11/02 13:40:38 socat[3766634] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/11/02 13:57:56 socat[3766634] N socket 1 (fd 7) is at EOF
+2025/11/02 13:57:56 socat[3766634] N socket 2 (fd 6) is at EOF
+2025/11/02 13:57:56 socat[3766634] N exiting with status 0
+2025/12/06 13:48:05 socat[3064145] N listening on AF=2 172.30.17.1:35594
+2025/12/06 13:48:12 socat[3064145] N accepting connection from AF=2 172.30.17.1:56442 on AF=2 172.30.17.1:35594
+2025/12/06 13:48:12 socat[3064145] N opening connection to AF=2 160.91.202.81:35594
+2025/12/06 13:48:12 socat[3064145] N successfully connected from local address AF=2 172.30.17.1:45768
+2025/12/06 13:48:12 socat[3064145] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/06 14:35:21 socat[3064145] N socket 1 (fd 7) is at EOF
+2025/12/06 14:35:21 socat[3064145] N socket 2 (fd 6) is at EOF
+2025/12/06 14:35:21 socat[3064145] N exiting with status 0
+2025/12/07 15:47:58 socat[2680163] N listening on AF=2 172.30.17.87:27640
+2025/12/07 15:48:04 socat[2680163] N accepting connection from AF=2 172.30.17.87:53436 on AF=2 172.30.17.87:27640
+2025/12/07 15:48:04 socat[2680163] N opening connection to AF=2 160.91.202.87:27640
+2025/12/07 15:48:04 socat[2680163] N successfully connected from local address AF=2 172.30.17.87:36350
+2025/12/07 15:48:04 socat[2680163] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/07 16:07:36 socat[2680163] N socket 1 (fd 7) is at EOF
+2025/12/07 16:07:36 socat[2680163] N socket 2 (fd 6) is at EOF
+2025/12/07 16:07:36 socat[2680163] N exiting with status 0
+2025/12/08 10:06:06 socat[124525] N listening on AF=2 172.30.18.94:54542
+2025/12/08 10:06:13 socat[124525] N accepting connection from AF=2 172.30.18.94:34044 on AF=2 172.30.18.94:54542
+2025/12/08 10:06:13 socat[124525] N opening connection to AF=2 160.91.202.83:54542
+2025/12/08 10:06:13 socat[124525] N successfully connected from local address AF=2 172.30.18.94:39572
+2025/12/08 10:06:13 socat[124525] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/08 10:17:28 socat[124525] N socket 1 (fd 7) is at EOF
+2025/12/08 10:17:28 socat[124525] N socket 2 (fd 6) is at EOF
+2025/12/08 10:17:28 socat[124525] N exiting with status 0
+2025/12/25 19:21:18 socat[924502] N listening on AF=2 172.30.17.77:38053
+2025/12/25 19:22:56 socat[981828] N listening on AF=2 172.30.17.8:32123
+2025/12/25 19:29:24 socat[1054299] N listening on AF=2 172.30.17.125:31833
+2025/12/25 19:29:33 socat[1054299] N accepting connection from AF=2 172.30.17.125:57502 on AF=2 172.30.17.125:31833
+2025/12/25 19:29:33 socat[1054299] N opening connection to AF=2 160.91.202.85:31833
+2025/12/25 19:29:33 socat[1054299] N successfully connected from local address AF=2 172.30.17.125:46698
+2025/12/25 19:29:33 socat[1054299] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/25 19:40:29 socat[1054299] N socket 1 (fd 7) is at EOF
+2025/12/25 19:40:29 socat[1054299] N socket 2 (fd 6) is at EOF
+2025/12/25 19:40:29 socat[1054299] N exiting with status 0
+2025/12/27 20:45:46 socat[1491511] N listening on AF=2 172.30.19.180:20695
+2025/12/27 20:45:52 socat[1491511] N accepting connection from AF=2 172.30.19.180:44018 on AF=2 172.30.19.180:20695
+2025/12/27 20:45:52 socat[1491511] N opening connection to AF=2 160.91.202.87:20695
+2025/12/27 20:45:52 socat[1491511] N successfully connected from local address AF=2 172.30.19.180:47800
+2025/12/27 20:45:52 socat[1491511] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/27 21:43:54 socat[1491511] N socket 2 (fd 6) is at EOF
+2025/12/27 21:51:29 socat[1638202] N listening on AF=2 172.30.17.3:17948
+2025/12/27 21:51:35 socat[1638202] N accepting connection from AF=2 172.30.17.3:42704 on AF=2 172.30.17.3:17948
+2025/12/27 21:51:35 socat[1638202] N opening connection to AF=2 160.91.202.87:17948
+2025/12/27 21:51:35 socat[1638202] N successfully connected from local address AF=2 172.30.17.3:47746
+2025/12/27 21:51:35 socat[1638202] N starting data transfer loop with FDs [7,7] and [6,6]
+2025/12/27 21:55:56 socat[1638202] N socket 1 (fd 7) is at EOF
+2025/12/27 21:55:56 socat[1638202] N socket 2 (fd 6) is at EOF
+2025/12/27 21:55:56 socat[1638202] N exiting with status 0
+2026/01/04 11:15:51 socat[1698489] N listening on AF=2 172.30.17.1:60038
+2026/01/04 12:48:52 socat[2659009] N listening on AF=2 172.30.17.15:36607
+2026/01/04 12:48:58 socat[2659009] N accepting connection from AF=2 172.30.17.15:34814 on AF=2 172.30.17.15:36607
+2026/01/04 12:48:58 socat[2659009] N opening connection to AF=2 160.91.202.85:36607
+2026/01/04 12:48:58 socat[2659009] N successfully connected from local address AF=2 172.30.17.15:40040
+2026/01/04 12:48:58 socat[2659009] N starting data transfer loop with FDs [7,7] and [6,6]
+2026/01/04 12:59:56 socat[2659009] W read(7, 0xaa8a50, 8192): Connection reset by peer
+2026/01/04 12:59:56 socat[2659009] N socket 1 to socket 2 is in error
+2026/01/04 12:59:56 socat[2659009] N socket 1 (fd 7) is at EOF
+2026/01/04 12:59:57 socat[2659009] N exiting with status 0
+2026/01/04 13:01:06 socat[2660368] N listening on AF=2 172.30.17.15:18672
+2026/01/04 13:01:13 socat[2660368] N accepting connection from AF=2 172.30.17.15:42916 on AF=2 172.30.17.15:18672
+2026/01/04 13:01:13 socat[2660368] N opening connection to AF=2 160.91.202.87:18672
+2026/01/04 13:01:13 socat[2660368] N successfully connected from local address AF=2 172.30.17.15:45746
+2026/01/04 13:01:13 socat[2660368] N starting data transfer loop with FDs [7,7] and [6,6]
+2026/01/04 13:11:09 socat[2660368] N socket 2 (fd 6) is at EOF

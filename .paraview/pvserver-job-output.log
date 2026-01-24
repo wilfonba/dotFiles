@@ -1,0 +1,1670 @@
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-08-22 14:28:04
+---------------------------------------------
+/ccs/home/bwilfong3/.bashrc: line 164: mw: command not found
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Lmod is automatically replacing "cce/18.0.1" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/24.11.0     2) cray-mpich/8.1.31     3) darshan-runtime/3.4.6-mpi
+
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "paraview/5.13.3-gpu-mpi"
+   Try: "module spider paraview/5.13.3-gpu-mpi" to see how to load the
+module(s).
+
+
+
+Module does not exist: paraview/5.13.3-gpu-mpi
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-08-23 15:07:00
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Currently Loaded Modules:
+  1) Core/24.00     3) DefApps     5) openmpi/4.0.4
+  2) hsi/5.0.2.p5   4) gcc/9.3.0   6) paraview/5.11.0-osmesa
+
+ 
+
+  Getting IP for interface eth0: 172.30.17.16
+  Starting socat tunnel 172.30.17.16:62498 -> 160.91.202.84:62498
+Setting 2 threads per process
+Nodes                     : 16
+MPI Tasks                 : 128
+Cores per MPI Taks        : 1
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.16:62498
+Client connected.
+[0m[31m(3262.904s) [pvserver.0      ]vtkSocketCommunicator.c:783    ERR| vtkSocketCommunicator (0x26da230): Could not receive tag. 1[0m
+[0m[31m(3262.905s) [pvserver.0      ]vtkTCPNetworkAccessMana:295    ERR| vtkTCPNetworkAccessManager (0x13aed80): Some error in socket processing.[0m
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-09-28 12:07:42
+---------------------------------------------
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   Andes will be unavailable from 7:00 AM to 5:00 PM on Tuesday, September
+   23th.
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   Andes will be unavailable from 7:00 AM to 5:00 PM on Tuesday, September
+   23th.
+
+-------------------------------------------------------------------------------
+
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Currently Loaded Modules:
+  1) Core/24.00     3) DefApps     5) openmpi/4.0.4
+  2) hsi/5.0.2.p5   4) gcc/9.3.0   6) paraview/5.11.0-osmesa
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.175
+  Starting socat tunnel 172.30.17.175:35450 -> 160.91.202.82:35450
+Setting 2 threads per process
+Nodes                     : 8
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.175:35450
+Client connected.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3099166.0 ON andes175 CANCELLED AT 2025-09-28T13:25:31 ***
+[0m[1m[91m
+Loguru caught a signal: SIGTERM
+slurmstepd: error: *** JOB 3099166 ON andes175 CANCELLED AT 2025-09-28T13:25:31 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-11-02 13:37:50
+---------------------------------------------
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   The annual OLCF User Survey is now open through 11/18/2025. Users should
+   have received an email with a link to complete this years’ OLCF User
+   Survey from the Oak Ridge Associated Universities (ORAU) on 10/07/2025.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   The annual OLCF User Survey is now open through 11/18/2025. Users should
+   have received an email with a link to complete this years’ OLCF User
+   Survey from the Oak Ridge Associated Universities (ORAU) on 10/07/2025.
+
+-------------------------------------------------------------------------------
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.89
+  Starting socat tunnel 172.30.17.89:37474 -> 160.91.202.81:37474
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.89:37474
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3129896.0 ON andes89 CANCELLED AT 2025-11-02T13:38:42 ***
+slurmstepd: error: *** JOB 3129896 ON andes89 CANCELLED AT 2025-11-02T13:38:42 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-11-02 13:40:30
+---------------------------------------------
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   The annual OLCF User Survey is now open through 11/18/2025. Users should
+   have received an email with a link to complete this years’ OLCF User
+   Survey from the Oak Ridge Associated Universities (ORAU) on 10/07/2025.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   The annual OLCF User Survey is now open through 11/18/2025. Users should
+   have received an email with a link to complete this years’ OLCF User
+   Survey from the Oak Ridge Associated Universities (ORAU) on 10/07/2025.
+
+-------------------------------------------------------------------------------
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.89
+  Starting socat tunnel 172.30.17.89:35014 -> 160.91.202.87:35014
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.89:35014
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+slurmstepd: error: *** STEP 3129897.0 ON andes89 CANCELLED AT 2025-11-02T13:57:56 ***
+slurmstepd: error: *** JOB 3129897 ON andes89 CANCELLED AT 2025-11-02T13:57:56 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-06 13:48:03
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Currently Loaded Modules:
+  1) Core/24.00     3) DefApps     5) openmpi/4.0.4
+  2) hsi/5.0.2.p5   4) gcc/9.3.0   6) paraview/5.11.0-osmesa
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.1
+  Starting socat tunnel 172.30.17.1:35594 -> 160.91.202.81:35594
+Setting 2 threads per process
+Nodes                     : 8
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.1:35594
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-07 15:47:56
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Currently Loaded Modules:
+  1) Core/24.00     3) DefApps     5) openmpi/4.0.4
+  2) hsi/5.0.2.p5   4) gcc/9.3.0   6) paraview/5.11.0-osmesa
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.87
+  Starting socat tunnel 172.30.17.87:27640 -> 160.91.202.87:27640
+Setting 2 threads per process
+Nodes                     : 8
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.87:27640
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-08 10:06:04
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+
+Currently Loaded Modules:
+  1) Core/24.00     3) DefApps     5) openmpi/4.0.4
+  2) hsi/5.0.2.p5   4) gcc/9.3.0   6) paraview/5.11.0-osmesa
+
+ 
+
+  Getting IP for interface eno1: 172.30.18.94
+  Starting socat tunnel 172.30.18.94:54542 -> 160.91.202.83:54542
+Setting 2 threads per process
+Nodes                     : 8
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.18.94:54542
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-25 19:21:16
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v5.11.0/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.77
+  Starting socat tunnel 172.30.17.77:38053 -> 160.91.202.83:38053
+Setting  threads per process
+Nodes                     : 2
+MPI Tasks                 : 16
+Cores per MPI Taks        : 2
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+srun: error: andes77: tasks 0-7: Exited with exit code 2
+srun: Terminating StepId=3167844.0
+srun: error: andes78: tasks 8-15: Exited with exit code 2
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-25 19:22:54
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v5.11.0/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.8
+  Starting socat tunnel 172.30.17.8:32123 -> 160.91.202.81:32123
+Setting  threads per process
+Nodes                     : 2
+MPI Tasks                 : 16
+Cores per MPI Taks        : 2
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+srun: error: andes8: tasks 0-7: Exited with exit code 2
+srun: Terminating StepId=3167846.0
+srun: error: andes77: tasks 8-15: Exited with exit code 2
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-25 19:29:22
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.125
+  Starting socat tunnel 172.30.17.125:31833 -> 160.91.202.85:31833
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.125:31833
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3167850.0 ON andes125 CANCELLED AT 2025-12-25T19:40:29 ***
+slurmstepd: error: *** JOB 3167850 ON andes125 CANCELLED AT 2025-12-25T19:40:29 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-27 20:45:44
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.19.180
+  Starting socat tunnel 172.30.19.180:20695 -> 160.91.202.87:20695
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.19.180:20695
+Client connected.
+slurmstepd: error: *** STEP 3169723.0 ON andes688 CANCELLED AT 2025-12-27T21:43:54 ***
+slurmstepd: error: *** JOB 3169723 ON andes688 CANCELLED AT 2025-12-27T21:43:54 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2025-12-27 21:51:27
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.3
+  Starting socat tunnel 172.30.17.3:17948 -> 160.91.202.87:17948
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.3:17948
+Client connected.
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+slurmstepd: error: *** STEP 3169764.0 ON andes3 CANCELLED AT 2025-12-27T21:55:56 ***
+slurmstepd: error: *** JOB 3169764 ON andes3 CANCELLED AT 2025-12-27T21:55:56 ***
+---------- BEGIN PVSERVER LAUNCHER ----------
+2026-01-04 11:15:49
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v5.11.0/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.1
+  Starting socat tunnel 172.30.17.1:60038 -> 160.91.202.83:60038
+Setting  threads per process
+Nodes                     : 2
+MPI Tasks                 : 16
+Cores per MPI Taks        : 2
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+slurmstepd: error: execve(): pvserver: No such file or directory
+srun: error: andes1: tasks 0-7: Exited with exit code 2
+srun: Terminating StepId=3173302.0
+srun: error: andes5: tasks 8-15: Exited with exit code 2
+---------- BEGIN PVSERVER LAUNCHER ----------
+2026-01-04 12:48:50
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.15
+  Starting socat tunnel 172.30.17.15:36607 -> 160.91.202.85:36607
+Setting  threads per process
+Nodes                     : 4
+MPI Tasks                 : 32
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.15:36607
+Client connected.
+srun: error: andes17: task 17: Killed
+srun: Terminating StepId=3173311.0
+slurmstepd: error: *** STEP 3173311.0 ON andes15 CANCELLED AT 2026-01-04T12:59:54 ***
+srun: error: andes17: task 19: Terminated
+srun: error: andes15: task 5: Killed
+srun: error: andes15: tasks 0-3,7: Terminated
+srun: error: andes17: tasks 16,23: Terminated
+srun: error: andes17: tasks 18,20-21: Terminated
+srun: error: andes15: task 4: Terminated
+srun: error: andes15: task 6: Terminated
+srun: error: andes17: task 22: Terminated
+srun: error: andes16: tasks 10,13: Terminated
+srun: error: andes16: tasks 11,14: Terminated
+srun: error: andes16: tasks 8-9,15: Terminated
+srun: error: andes16: task 12: Terminated
+srun: error: andes18: task 28: Killed
+srun: error: andes18: task 24: Terminated
+srun: error: andes18: task 30: Terminated
+srun: error: andes18: tasks 26-27,31: Terminated
+srun: error: andes18: task 29: Terminated
+srun: error: andes18: task 25: Terminated
+srun: Force Terminated StepId=3173311.0
+---------- BEGIN PVSERVER LAUNCHER ----------
+2026-01-04 13:01:04
+---------------------------------------------
+
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.17.15
+  Starting socat tunnel 172.30.17.15:18672 -> 160.91.202.87:18672
+Setting  threads per process
+Nodes                     : 16
+MPI Tasks                 : 128
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.17.15:18672
+slurmstepd: error: *** STEP 3173312.0 ON andes15 CANCELLED AT 2026-01-04T13:11:09 ***
+slurmstepd: error: *** JOB 3173312 ON andes15 CANCELLED AT 2026-01-04T13:11:09 ***
