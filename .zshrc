@@ -67,9 +67,9 @@ then
     }
 fi
 
-if [ $(hostname) = "wingtip-gpu3" ];
+if [[ $(hostname) =~ "wingtip-gpu3" ]];
 then
-    source /usr/share/lmod/lmod/init/zsh
+    #source /usr/share/lmod/lmod/init/zsh
     alias mw="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
     export TMPDIR=$HOME/tmp
@@ -77,9 +77,11 @@ then
     alias pvserver="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvserver"
     alias pvpython="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvpython"
 
+    # Vim with copilot
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    export PATH="$HOME/local/vim/bin:$PATH"
+    #export PATH="$HOME/local/vim/bin:$PATH"
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
