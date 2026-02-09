@@ -1,0 +1,504 @@
+---------- BEGIN PVSERVER LAUNCHER ----------
+2026-01-30 10:03:44
+---------------------------------------------
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   Andes will be unavailable from 8:00 AM Tuesday, February 10th until 8:00
+   AM Wednesday, February 11th.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+DefApps:
+   Andes will be unavailable from 8:00 AM Tuesday, February 10th until 8:00
+   AM Wednesday, February 11th.
+
+-------------------------------------------------------------------------------
+
+ _______                               __     __  __                         
+/       \                             /  |   /  |/  |                        
+$$$$$$$  | ______    ______   ______  $$ |   $$ |$$/   ______   __   __   __ 
+$$ |__$$ |/      \  /      \ /      \ $$ |   $$ |/  | /      \ /  | /  | /  |
+$$    $$/ $$$$$$  |/$$$$$$  |$$$$$$  |$$  \ /$$/ $$ |/$$$$$$  |$$ | $$ | $$ |
+$$$$$$$/  /    $$ |$$ |  $$/ /    $$ | $$  /$$/  $$ |$$    $$ |$$ | $$ | $$ |
+$$ |     /$$$$$$$ |$$ |     /$$$$$$$ |  $$ $$/   $$ |$$$$$$$$/ $$ \_$$ \_$$ |
+$$ |     $$    $$ |$$ |     $$    $$ |   $$$/    $$ |$$       |$$   $$   $$/ 
+$$/       $$$$$$$/ $$/       $$$$$$$/     $/     $$/  $$$$$$$/  $$$$$/$$$$/  
+
+
+/lustre/orion/csc143/world-shared/kmorel/builds/andes/paraview-2025-10-09-silo/pvsc/ORNL/../../paraview-v6.0.1/install/bin:/sw/andes/spack-envs/base/opt/linux-rhel8-x86_64/gcc-9.3.0/openmpi-4.0.4-skxqfeiocc5jtuw3y6dwtnxzzqjp5ffs/bin:/sw/andes/gcc/9.3.0/bin:/sw/sources/hpss/bin:/sw/andes/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sw/sources/cgroup_tool/bin:/opt/puppetlabs/bin:/usr/lpp/mmfs/bin:/opt/dell/srvadmin/bin
+
+The following have been reloaded with a version change:
+  1) Core/24.00 => Core/25.04
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   3) Core/25.04   5) openmpi/4.0.4
+  2) DefApps        4) gcc/9.3.0
+
+ 
+
+  Getting IP for interface eno1: 172.30.18.215
+  Starting socat tunnel 172.30.18.215:18382 -> 160.91.202.84:18382
+Setting  threads per process
+Nodes                     : 8
+MPI Tasks                 : 64
+Cores per MPI Taks        : 4
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Connecting to client (reverse connection requested)...
+Connection URL: csrc://172.30.18.215:18382
+Client connected.
+[0m[31m(  47.688s) [pvserver.39     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f56530): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.44     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4106710): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.32     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x27c4ab0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.47     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3109680): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.52     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4160e40): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.34     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3acab70): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.40     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x25f86d0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.58     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x281e9b0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.55     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3bc4880): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.37     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3528f70): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.42     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4338820): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.59     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3892e80): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.59     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x28a8270): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.48     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2dc4ff0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.38     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3997ff0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.44     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x311c2c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.726s) [pvserver.60     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2757b90): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.60     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1773330): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.53     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2914190): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.33     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x33a0f40): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.45     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x390ade0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.62     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3678f40): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.62     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x26942c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.54     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x401b380): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.688s) [pvserver.36     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39eea20): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.650s) [pvserver.46     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4222180): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.46     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x323d1a0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.726s) [pvserver.56     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f30840): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.56     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2f4cba0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.48     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1de1f50): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.688s) [pvserver.35     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3698e60): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.40     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x160efc0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.726s) [pvserver.57     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x31ddec0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.57     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x21f3560): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.49     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2b3e1c0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.41     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x439df60): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.58     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x18340f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.50     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3637ca0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.42     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x334e620): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.726s) [pvserver.61     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2aded50): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.61     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1af4220): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.51     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x399c240): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.651s) [pvserver.43     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x27fccc0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.63     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3e7fe80): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.726s) [pvserver.63     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2e95210): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.52     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x317cf20): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.651s) [pvserver.45     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x29202a0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.54     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3036fc0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.651s) [pvserver.47     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x211d160): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.55     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2bd8ed0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.651s) [pvserver.43     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1812260): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.53     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x192a040): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.651s) [pvserver.41     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x33b3400): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.49     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1b53fc0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.50     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x264df90): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.51     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x29b1f10): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.39     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2f6a0f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.32     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x17e16b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.34     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2ae6220): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.33     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x23b6200): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.36     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2a0a380): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.37     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x253e130): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.38     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x29ad1c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.689s) [pvserver.35     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x26ae4e0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.24     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2cef600): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.26     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2874350): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.30     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3580820): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.30     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x259cad0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.24     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1d0bda0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.25     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3c53710): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.26     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1890b50): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.28     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4244470): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.29     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3607610): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.31     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3b65790): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.31     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2b7bc00): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.25     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2c69b00): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.27     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3672550): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.715s) [pvserver.28     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x325aac0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.29     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x261dbb0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.715s) [pvserver.27     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2688c00): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.4      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3923290): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.6      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f63290): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.0      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4123350): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.1      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2e73fd0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.2      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39d5450): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.3      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x37b32f0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.4      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2920410): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.5      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x32af3d0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.5      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x22d0410): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.6      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2f664b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.7      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x26b83d0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.799s) [pvserver.7      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x16b5440): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.0      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3052cb0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.1      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1e722a0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.2      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x29d9500): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.799s) [pvserver.3      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x27b1490): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.15     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x42bfe00): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.8      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39b20d0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.9      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4179ef0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.11     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x26e2ee0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.12     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2647a20): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.13     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f55de0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.14     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3b77120): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.8      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x29cfe10): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.9      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3191df0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.10     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x432bbb0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.754s) [pvserver.11     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x16fa7b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.12     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1665930): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.13     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2f6db80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.14     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2b94a40): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.15     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x32d7860): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.754s) [pvserver.10     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x33499b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.735s) [pvserver.20     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3d53460): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.735s) [pvserver.22     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x41ab810): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.16     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4240aa0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.17     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2653730): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.18     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x27fd350): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.19     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x343a4b0): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.735s) [pvserver.21     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3695500): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.23     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x263bc70): Error parsing XML in stream at line 5, column 36, byte index 311: not well-formed (invalid token)[0m
+[0m[31m(  47.736s) [pvserver.20     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2d6fc10): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.22     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x31c7b30): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.18     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1813b60): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.19     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2450b10): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.21     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x26abc80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.16     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x325d2b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.17     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1669ae0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  47.736s) [pvserver.23     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x1650b40): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.265s) [pvserver.0      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x40a6be0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.265s) [pvserver.0      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2872a70): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.265s) [pvserver.4      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x392f850): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.265s) [pvserver.4      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3921700): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.265s) [pvserver.6      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f6f850): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.265s) [pvserver.6      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3f61700): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.215s) [pvserver.12     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2653fe0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.215s) [pvserver.12     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2645e90): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.206s) [pvserver.54     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4027940): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.206s) [pvserver.54     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x40197f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.216s) [pvserver.15     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x42cc3c0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.206s) [pvserver.52     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x416d400): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.216s) [pvserver.15     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x42be270): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.121s) [pvserver.45     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39173a0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.159s) [pvserver.32     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x27d0fb0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.159s) [pvserver.32     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x27c2f20): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.206s) [pvserver.52     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x415f2b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.121s) [pvserver.45     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3909250): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.184s) [pvserver.28     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4250a30): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.184s) [pvserver.28     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x42428e0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.192s) [pvserver.18     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2809910): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.192s) [pvserver.18     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x27fb7c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.159s) [pvserver.39     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f62af0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.159s) [pvserver.39     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3f549a0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.197s) [pvserver.61     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2aeb310): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.266s) [pvserver.3      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x37bf8b0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.266s) [pvserver.3      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x37b1760): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.206s) [pvserver.53     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2920750): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.192s) [pvserver.17     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x265fcf0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.197s) [pvserver.61     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2add1c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.207s) [pvserver.53     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2912600): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.192s) [pvserver.17     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2651ba0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.197s) [pvserver.60     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2764150): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.185s) [pvserver.25     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3c5fcd0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.197s) [pvserver.60     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2756000): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.185s) [pvserver.25     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3c51b80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.217s) [pvserver.14     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3b836e0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.267s) [pvserver.2      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39e1a10): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.267s) [pvserver.2      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x39d38c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.217s) [pvserver.14     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3b75590): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.185s) [pvserver.31     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3b71d50): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.185s) [pvserver.31     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3b63c00): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.198s) [pvserver.59     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x389f440): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.193s) [pvserver.21     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x36a1ac0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.217s) [pvserver.8      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39be690): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.267s) [pvserver.7      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x26c4990): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.267s) [pvserver.7      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x26b6840): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.198s) [pvserver.59     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x38912f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.193s) [pvserver.21     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3693970): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.217s) [pvserver.8      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x39b0540): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.122s) [pvserver.44     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4112cd0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.160s) [pvserver.36     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39fafd0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.122s) [pvserver.44     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x4104b80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.207s) [pvserver.50     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3644260): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.186s) [pvserver.24     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2cfbbc0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.160s) [pvserver.36     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x39ece90): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.207s) [pvserver.50     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3636110): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.193s) [pvserver.23     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2648230): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.267s) [pvserver.5      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x32bb990): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.217s) [pvserver.13     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f623a0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.186s) [pvserver.24     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2ceda70): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.198s) [pvserver.62     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3685500): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.268s) [pvserver.5      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x32ad840): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.193s) [pvserver.23     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x263a0e0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.217s) [pvserver.13     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3f54250): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.123s) [pvserver.42     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4344de0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.198s) [pvserver.62     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x36773b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.123s) [pvserver.42     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x4336c90): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.160s) [pvserver.35     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x36a5420): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.186s) [pvserver.26     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2880910): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.208s) [pvserver.49     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2b4a780): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.194s) [pvserver.16     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x424d060): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.217s) [pvserver.11     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x26ef4a0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.160s) [pvserver.35     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x36972d0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.186s) [pvserver.26     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x28727c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.208s) [pvserver.49     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2b3c630): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.194s) [pvserver.16     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x423ef10): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.217s) [pvserver.11     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x26e1350): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.268s) [pvserver.1      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2e80590): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.268s) [pvserver.1      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2e72440): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.123s) [pvserver.47     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3115c40): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.123s) [pvserver.47     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3107af0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.198s) [pvserver.58     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x282af70): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.198s) [pvserver.58     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x281ce20): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.161s) [pvserver.33     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x33ad500): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.186s) [pvserver.29     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3613bd0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.208s) [pvserver.48     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2dd15b0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.194s) [pvserver.22     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x41b7d30): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.161s) [pvserver.33     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x339f3b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.186s) [pvserver.29     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3605a80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.208s) [pvserver.48     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x2dc3460): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.123s) [pvserver.46     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x422e740): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.194s) [pvserver.22     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x41a9c80): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.199s) [pvserver.56     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3f3cd60): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.199s) [pvserver.56     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3f2ecb0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.218s) [pvserver.10     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x4338170): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.123s) [pvserver.46     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x42205f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.186s) [pvserver.30     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x358cd30): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.194s) [pvserver.20     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3d5fa20): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.218s) [pvserver.10     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x432a020): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.199s) [pvserver.63     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3e8c440): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.218s) [pvserver.9      ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x41864b0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.161s) [pvserver.38     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39a45b0): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.161s) [pvserver.38     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3996460): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.186s) [pvserver.30     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x357ec90): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.218s) [pvserver.9      ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x4178360): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.194s) [pvserver.20     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3d518d0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.208s) [pvserver.51     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x39a8800): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.199s) [pvserver.63     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3e7e2f0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.123s) [pvserver.43     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2809280): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.208s) [pvserver.51     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x399a6b0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.161s) [pvserver.34     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3ad7130): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.208s) [pvserver.55     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3bd0e40): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.123s) [pvserver.43     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x27fb130): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.208s) [pvserver.55     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3bc2cf0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.199s) [pvserver.57     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x31ea480): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.161s) [pvserver.34     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3ac8fe0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.187s) [pvserver.27     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x367eb10): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.195s) [pvserver.19     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3446a70): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.199s) [pvserver.57     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x31dc330): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.124s) [pvserver.40     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x2604c90): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.187s) [pvserver.27     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x36709c0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.195s) [pvserver.19     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x3438920): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.124s) [pvserver.40     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x25f6b40): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.161s) [pvserver.37     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x3535530): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.161s) [pvserver.37     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x35273e0): Error parsing input file.  ReadXMLInformation aborting.[0m
+[0m[31m(  59.124s) [pvserver.41     ]       vtkXMLParser.cxx:364    ERR| vtkXMLDataParser (0x43aa520): Error parsing XML in stream at line 3, column 29, byte index 145: not well-formed (invalid token)[0m
+[0m[31m(  59.124s) [pvserver.41     ]       vtkXMLReader.cxx:577    ERR| vtkXMLUnstructuredGridReader (0x439c3d0): Error parsing input file.  ReadXMLInformation aborting.[0m
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+Exiting...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3192324.0 ON andes469 CANCELLED AT 2026-01-30T10:05:00 ***
+slurmstepd: error: *** JOB 3192324 ON andes469 CANCELLED AT 2026-01-30T10:05:00 ***

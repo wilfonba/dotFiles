@@ -18,6 +18,7 @@ then
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
     export PATH="/ccs/home/bwilfong3/node-v22.16.0-linux-x64/bin:$PATH"
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 if [[ $(hostname -f) =~ "tuolumne" ]];
@@ -58,6 +59,7 @@ then
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
     alias sst="squeue --start -u bwilfong3"
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
