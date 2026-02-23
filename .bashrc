@@ -65,11 +65,12 @@ fi
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
 then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
-    function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
+    function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3 -C graniterapids; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
     alias mw="cd /storage/scratch1/6/bwilfong3"
     alias sst="squeue --start -u bwilfong3"
+    export PATH="/usr/bin:$HOME/.local/bin:$PATH" # Claude code
 fi
 
 if [[ $(hostname) =~ "ice" ]];
