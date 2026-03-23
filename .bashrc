@@ -15,7 +15,7 @@ then
     alias mws="cd /lustre/orion/eng160/scratch/bwilfong3"
     function gint() { salloc -q debug -t 00:$3:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A $4 -p extended;}
     alias l=". ./mfc.sh load -c f -m g"
-    alias s="squeue -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias sst="squeue --start -u bwilfong3"
     export PATH="/ccs/home/bwilfong3/node-v22.16.0-linux-x64/bin:$PATH"
     export PATH="$HOME/.local/bin:$PATH"
@@ -47,7 +47,7 @@ then
     function gint() { salloc -t $3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest --gres=gpu:b200:1 -A bala1s;}
     function cint() { salloc -t $3:00:00 -N $1 --ntasks-per-node=$2 -p hpg-milan -A bala1s;}
     alias l=". ./mfc.sh load -c h -m g"
-    alias s="squeue -u bwilfong"
+    alias s="squeue -u bwilfong -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias sst="squeue --start -u bwilfong"
 fi
 
@@ -57,7 +57,7 @@ then
     alias mws="cd /lustre/orion/eng160/scratch/bwilfong3"
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
-    alias s="squeue -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias sst="squeue --start -u bwilfong3"
     export PATH="$HOME/.local/bin:$PATH"
 fi
@@ -67,7 +67,7 @@ then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3 -C graniterapids; }
     alias l=". ./mfc.sh load -c p -m g"
-    alias s="squeue -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias mw="cd /storage/scratch1/6/bwilfong3"
     alias sst="squeue --start -u bwilfong3"
     export PATH="/usr/bin:$HOME/.local/bin:$PATH" # Claude code
@@ -76,7 +76,7 @@ fi
 if [[ $(hostname) =~ "ice" ]];
 then
     alias l=". ./mfc.sh load -c p -m g"
-    alias s="squeue -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias mw="cd /home/hice1/bwilfong3/scratch"
     alias sst="squeue --start -u bwilfong3"
 fi
@@ -86,7 +86,7 @@ then
     function gint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 --gres=gpu:$4:$2 -A gts-sbryngelson3; }
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
-    alias s="squeue -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias mw="cd /nethome/bwilfong3/USERSCRATCH"
     alias sst="squeue --start -u bwilfong3"
 
@@ -130,7 +130,7 @@ fi
 if [[ $(hostname) =~ "delta" ]];
 then
     alias mw="cd /scratch/bdiy/bwilfong"
-    alias s="squeue -u bwilfong"
+    alias s="squeue -u bwilfong -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias l=". ./mfc.sh load -c d -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
     function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
@@ -140,7 +140,7 @@ fi
 if [[ $(hostname) =~ "gh-login" ]] || [[ $(hostname) =~ "hsn.cm.delta.internal.ncsa.edu" ]];
 then
     alias mw="cd /work/nvme/bbsc/bwilfong"
-    alias s="squeue -u bwilfong"
+    alias s="squeue -u bwilfong -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias l=". ./mfc.sh load -c dai -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-dtai-gh -p ghx4-interactive;}
     function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bbsc-dtai-gh;}
@@ -152,7 +152,7 @@ then
     alias mw="cd /capstor/scratch/cscs/bwilfong"
     function gint() { salloc -t 00:$3:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A g183;}
     alias l=". ./mfc.sh load -c san -m g"
-    alias s="squeue -u bwilfong"
+    alias s="squeue -u bwilfong -o "%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R"
     alias sst="squeue --start -u bwilfong"
     alias us="uenv start --view=modules icon/25.2:v1@santis"
     alias up="uenv start --view=develop /capstor/scratch/cscs/bwilfong/uenvs/paraview-silo-gh200-egl-5.13.2-2025-08-07.squashfs"
