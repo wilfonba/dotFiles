@@ -11,8 +11,8 @@ fi
 # Computer specific aliases
 if [[ $(hostname -f) =~ "frontier" ]];
 then
-    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    alias mws="cd /lustre/orion/eng160/scratch/bwilfong3"
+    alias mwd="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    alias mwds="cd /lustre/orion/eng160/scratch/bwilfong3"
     function gint() { salloc -q debug -t 00:$3:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A $4 -p extended;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
@@ -23,8 +23,8 @@ fi
 
 if [[ $(hostname -f) =~ "tuolumne" ]];
 then
-    alias mw="cd /p/lustre5/wilfong1"
-    alias mww="cd /usr/workspace/wilfong1"
+    alias mwd="cd /p/lustre5/wilfong1"
+    alias mwdw="cd /usr/workspace/wilfong1"
     alias l=". ./mfc.sh load -c tuo -m g"
     function gint() { flux alloc -t $2 -N $1 -q pdebug; }
     alias s="flux jobs"
@@ -33,8 +33,8 @@ fi
 
 if [[ $(hostname -f) =~ "tioga" ]];
 then
-    alias mw="cd /p/lustre1/wilfong1"
-    alias mwt="cd /p/lustre2/wilfong1"
+    alias mwd="cd /p/lustre1/wilfong1"
+    alias mwdt="cd /p/lustre2/wilfong1"
     alias l=". ./mfc.sh load -c tga -m g"
     function gint() { flux alloc -t $2 -N $1 -q pdebug; }
     alias s="flux jobs"
@@ -43,7 +43,7 @@ fi
 
 if [[ $(hostname -f) =~ "ufhpc" ]];
 then
-    alias mw="cd /blue/bala1s/bwilfong"
+    alias mwd="cd /blue/bala1s/bwilfong"
     function gint() { salloc -t $3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest --gres=gpu:b200:1 -A bala1s;}
     function cint() { salloc -t $3:00:00 -N $1 --ntasks-per-node=$2 -p hpg-milan -A bala1s;}
     alias l=". ./mfc.sh load -c h -m g"
@@ -53,8 +53,8 @@ fi
 
 if [[ $(hostname) =~ "andes" ]];
 then
-    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    alias mws="cd /lustre/orion/eng160/scratch/bwilfong3"
+    alias mwd="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    alias mwds="cd /lustre/orion/eng160/scratch/bwilfong3"
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
@@ -68,7 +68,7 @@ then
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3 -C graniterapids; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
-    alias mw="cd /storage/scratch1/6/bwilfong3"
+    alias mwd="cd /storage/scratch1/6/bwilfong3"
     alias sst="squeue --start -u bwilfong3"
     export PATH="/usr/bin:$HOME/.local/bin:$PATH" # Claude code
 fi
@@ -77,7 +77,7 @@ if [[ $(hostname) =~ "ice" ]];
 then
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
-    alias mw="cd /home/hice1/bwilfong3/scratch"
+    alias mwd="cd /home/hice1/bwilfong3/scratch"
     alias sst="squeue --start -u bwilfong3"
 fi
 
@@ -87,7 +87,7 @@ then
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
-    alias mw="cd /nethome/bwilfong3/USERSCRATCH"
+    alias mwd="cd /nethome/bwilfong3/USERSCRATCH"
     alias sst="squeue --start -u bwilfong3"
 
     source_profile_files()
@@ -129,7 +129,7 @@ fi
 
 if [[ $(hostname) =~ "delta" ]];
 then
-    alias mw="cd /scratch/bdiy/bwilfong"
+    alias mwd="cd /scratch/bdiy/bwilfong"
     alias s="squeue -u bwilfong -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
     alias l=". ./mfc.sh load -c d -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
@@ -139,7 +139,7 @@ fi
 
 if [[ $(hostname) =~ "gh-login" ]] || [[ $(hostname) =~ "hsn.cm.delta.internal.ncsa.edu" ]];
 then
-    alias mw="cd /work/nvme/bbsc/bwilfong"
+    alias mwd="cd /work/nvme/bbsc/bwilfong"
     alias s="squeue -u bwilfong -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
     alias l=". ./mfc.sh load -c dai -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bbsc-dtai-gh -p ghx4-interactive;}
@@ -149,7 +149,7 @@ fi
 
 if [[ $(hostname -f) =~ "daint" ]];
 then
-    alias mw="cd /capstor/scratch/cscs/bwilfong"
+    alias mwd="cd /capstor/scratch/cscs/bwilfong"
     function gint() { salloc -t 00:$3:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A g183;}
     alias l=". ./mfc.sh load -c san -m g"
     alias s="squeue -u bwilfong -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
@@ -161,7 +161,7 @@ fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
 then
-    alias mw="cd /fastscratch/bwilfong3"
+    alias mwd="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
     export PATH=$HOME/.local/bin:$PATH
 fi
@@ -190,4 +190,4 @@ function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
 
 set -o vi
 # Go to scratch directory
-mw
+mwd

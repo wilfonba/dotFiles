@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 
 if [[ $(hostname) =~ "delta" ]];
 then
-    alias mw="cd /scratch/bdiy/bwilfong"
+    alias mwd="cd /scratch/bdiy/bwilfong"
     alias s="squeue -u bwilfong"
     alias l=". ./mfc.sh load -c d -m g"
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
@@ -51,7 +51,7 @@ then
     alias vim="/opt/homebrew/Cellar/macvim/9.1.0727_1/bin/vim" 
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
     export PATH=$PATH:$VIM_HOME/bin
-    alias mw="cd ~/Documents"
+    alias mwd="cd ~/Documents"
     source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
     source /opt/homebrew/opt/chruby/share/chruby/auto.sh
     chruby ruby-3.1.3
@@ -70,7 +70,7 @@ fi
 if [[ $(hostname) =~ "wingtip-gpu3" ]];
 then
     #source /usr/share/lmod/lmod/init/zsh
-    alias mw="cd /fastscratch/bwilfong3"
+    alias mwd="cd /fastscratch/bwilfong3"
     alias s="nvidia-smi"
     export TMPDIR=$HOME/tmp
     source ~/fastScratch/pythonEnv/bin/activate
@@ -90,7 +90,7 @@ then
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
-    alias mw="cd /storage/home/hcoda1/6/bwilfong3/scratch"
+    alias mwd="cd /storage/home/hcoda1/6/bwilfong3/scratch"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
@@ -102,7 +102,7 @@ then
     function cint() { salloc -q embers -t 0$3:00:00 -N $1 --ntasks-per-node=$2 -A gts-sbryngelson3; }
     alias l=". ./mfc.sh load -c p -m g"
     alias s="squeue -u bwilfong3"
-    alias mw="cd /nethome/bwilfong3/USERSCRATCH"
+    alias mwd="cd /nethome/bwilfong3/USERSCRATCH"
     alias ag="sinfo | grep gpu | grep idle"
     alias ac="sinfo | grep cpu | grep idle"
     alias sst="squeue --start -u bwilfong3"
@@ -145,8 +145,8 @@ fi
 
 if [[ $(hostname -f) =~ "frontier" ]];
 then
-    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
-    alias mws="cd /lustre/orion/eng160/scratch/bwilfong3"
+    alias mwd="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    alias mwds="cd /lustre/orion/eng160/scratch/bwilfong3"
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
@@ -155,7 +155,7 @@ fi
 
 if [[ $(hostname) =~ "andes" ]];
 then
-    alias mw="cd /lustre/orion/cfd154/scratch/bwilfong3"
+    alias mwd="cd /lustre/orion/cfd154/scratch/bwilfong3"
     function gint() { salloc -q debug -t 02:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -A cfd154;}
     alias l=". ./mfc.sh load -c f -m g"
     alias s="squeue -u bwilfong3"
@@ -184,5 +184,5 @@ alias vim="vim -u ~/.vimrc"
 function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
 
 bindkey -v
-mw
+mwd
 
