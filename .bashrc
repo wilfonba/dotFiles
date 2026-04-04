@@ -6,6 +6,7 @@ then
 
     \cp ~/dotFiles/.bashrc ~/.bashrc
     \cp ~/dotFiles/.vimrc ~/.vimrc
+    \cp ~/dotFiles/.zshrc ~/.zshrc
 fi
 
 # Computer specific aliases

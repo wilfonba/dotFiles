@@ -54,6 +54,7 @@ set spell spelllang=en_us
 set nolist wrap
 set backspace=2
 set colorcolumn=132
+set undofile
 
 autocmd BufRead,BufNewFile *.out set filetype=txt
 autocmd FileType tex let g:indentLine_setConceal = 0
@@ -174,3 +175,11 @@ nmap <F2> <Esc>:w<CR>:!clear;pdflatex %<CR>
 
 imap <F3> <Esc>:w<CR>:!clear;open %:r.pdf<CR>
 nmap <F3> <Esc>:w<CR>:!clear;open %:r.pdf<CR>
+
+" Centralize all undo files in one directory
+set undodir=~/.vim/undodir//
+
+" Create the directory if it doesn't exist
+if !isdirectory(expand(&undodir))
+    call mkdir(expand(&undodir), "p")
+endif
