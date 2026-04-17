@@ -159,6 +159,12 @@ then
     alias up="uenv start --view=develop /capstor/scratch/cscs/bwilfong/uenvs/paraview-silo-gh200-egl-5.13.2-2025-08-07.squashfs"
 fi
 
+if [[ $(hostname -f) =~ "hpcfund" ]];
+then
+    alias mwd="cd /work1/spencerbryngelson/bwilfong3"
+    alias sst="squeue --start -u bwilfong3"
+    alias s="squeue -u bwilfong3 -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
+fi
 
 if [ $(hostname) = "wingtip-gpu3" ];
 then
