@@ -1,5 +1,10 @@
 Host *
   EnableEscapeCommandline yes
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+  ServerAliveInterval 60
+  ServerAliveCountMax 2
 
 Host delta
   HostName login.delta.ncsa.illinois.edu
@@ -21,8 +26,6 @@ Host andes
 
 Host wingtip
   HostName wingtip-gpu3.cc.gatech.edu
-  ForwardX11 yes
-  ForwardX11Trusted yes
   User bwilfong3
 
 Host bridges2
@@ -76,16 +79,24 @@ Host santis
     HostName santis.alps.cscs.ch
     User bwilfong
     IdentityFile ~/.ssh/cscs-key
-   ProxyJump ela
+    ProxyJump ela
     AddKeysToAgent yes
     ForwardAgent yes
+
+Host medbow
+    HostName medicinebow.arcc.uwyo.edu
+    User benwilfong
+    IdentityFile ~/.ssh/id_ecdsa
 
 Host tuo
     HostName tuo.llnl.gov
     User wilfong1
 
-Host *
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_ed25519
+Host tioga
+    HostName tioga.llnl.gov
+    User wilfong1
+
+Host amd
+    HostName hpcfund.amd.com
+    User bwilfong3
 
