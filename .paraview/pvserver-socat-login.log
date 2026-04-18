@@ -1,6 +1,0 @@
-2026/03/05 14:27:47 socat[299137] N listening on AF=2 160.91.202.81:2905
-2026/03/05 14:28:03 socat[299137] N accepting connection from AF=2 172.30.17.15:50198 on AF=2 160.91.202.81:2905
-2026/03/05 14:28:03 socat[299137] N opening connection to AF=2 127.0.0.1:2905
-2026/03/05 14:28:03 socat[299137] N successfully connected from local address AF=2 127.0.0.1:60002
-2026/03/05 14:28:03 socat[299137] N starting data transfer loop with FDs [7,7] and [6,6]
-2026/03/05 16:01:42 socat[299137] N socket 2 (fd 6) is at EOF
