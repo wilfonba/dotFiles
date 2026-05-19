@@ -28,6 +28,7 @@ call plug#begin()
     Plug 'terryma/vim-multiple-cursors'
     Plug 'shime/vim-livedown'
     Plug 'Yggdroot/indentLine'
+    Plug 'tpope/vim-fugitive'
 call plug#end()
 
 runtime macros/matchit.vim
