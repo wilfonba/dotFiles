@@ -180,6 +180,10 @@ nmap <F3> <Esc>:w<CR>:!clear;open %:r.pdf<CR>
 " Centralize all undo files in one directory
 set undodir=~/.vim/undodir//
 
+" Fugitive.vim bindings
+nnoremap <leader>dg :diffget<CR>
+nnoremap <leader>dp :diffput<CR>"
+
 " Create the directory if it doesn't exist
 if !isdirectory(expand(&undodir))
     call mkdir(expand(&undodir), "p")
