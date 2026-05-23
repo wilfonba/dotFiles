@@ -4,6 +4,7 @@ cp ~/dotFiles/.zshrc ~/.zshrc
 cp ~/dotFiles/.bashrc ~/.bashrc
 cp ~/dotFiles/.vimrc ~/.vimrc
 cp ~/dotFiles/.p10k.zsh ~/.p10k.zsh
+cp ~/dotFiles/.tmux.conf ~/.tmux.conf
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -181,6 +182,10 @@ alias gpp="g++ -std=c++20 -O2 -DNDEBUG"
 alias gppd="g++ -std=c++20 -ggdb -pedantic-errors"
 alias vim="vim -u ~/.vimrc"
 
+alias tas="tmux attach-session -t"
+alias trs="tmux rename-session -t"
+alias tks="tmux kill-session -t"
+alias tls="tmux ls"
 
 function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
 

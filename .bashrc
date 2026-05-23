@@ -7,6 +7,7 @@ then
     \cp ~/dotFiles/.bashrc ~/.bashrc
     \cp ~/dotFiles/.vimrc ~/.vimrc
     \cp ~/dotFiles/.zshrc ~/.zshrc
+    \cp ~/dotFiles/.tmux.conf ~/.tmux.conf
 fi
 
 # Computer specific aliases
@@ -193,6 +194,11 @@ alias cl="wc -l *"
 alias ag="sinfo | grep gpu | grep idle"
 alias ac="sinfo | grep cpu | grep idle"
 alias vim="vim -u ~/.vimrc"
+
+alias tas="tmux attach-session -t"
+alias trs="tmux rename-session -t"
+alias tks="tmux kill-session -t"
+alias tls="tmux ls"
 
 function td() { tree -L "${1:-2}" -P "*.tar.gz|*.zip";}
 
