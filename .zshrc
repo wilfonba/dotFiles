@@ -6,6 +6,11 @@ cp ~/dotFiles/.vimrc ~/.vimrc
 cp ~/dotFiles/.p10k.zsh ~/.p10k.zsh
 cp ~/dotFiles/.tmux.conf ~/.tmux.conf
 
+# Install TPM (tmux plugin manager) if it's missing
+if command -v tmux >/dev/null 2>&1 && [ ! -d ~/.tmux/plugins/tpm ]; then
+    git clone --quiet https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 2>/dev/null
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.

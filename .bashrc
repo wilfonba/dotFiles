@@ -10,6 +10,11 @@ then
     \cp ~/dotFiles/.tmux.conf ~/.tmux.conf
 fi
 
+# Install TPM (tmux plugin manager) if it's missing
+if command -v tmux >/dev/null 2>&1 && [ ! -d ~/.tmux/plugins/tpm ]; then
+    git clone --quiet https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 2>/dev/null
+fi
+
 # Computer specific aliases
 if [[ $(hostname -f) =~ "frontier" ]];
 then
