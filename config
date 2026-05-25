@@ -36,10 +36,6 @@ Host rg
   HostName rg-login.crnch.gatech.edu
   User bwilfong3
 
-Host carpenter
-  HostName carpenter.erdc.hpc.mi
-  User bwilfong
-
 Host cosmos
   HostName login01.cosmos.sdsc.edu
   User bwilfong
@@ -82,11 +78,6 @@ Host santis
     ProxyJump ela
     AddKeysToAgent yes
     ForwardAgent yes
-
-Host medbow
-    HostName medicinebow.arcc.uwyo.edu
-    User benwilfong
-    IdentityFile ~/.ssh/id_ecdsa
 
 Host tuo
     HostName tuo.llnl.gov
