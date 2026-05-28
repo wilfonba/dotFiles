@@ -53,15 +53,21 @@ then
     alias sst="squeue --start -u bwilfong"
 fi
 
-if [[ $(uname) =~ "Darwin" ]]; # My laptop
+if [[ $(uname) =~ "Darwin" ]]; # Macs
 then
-    alias vim="/opt/homebrew/Cellar/macvim/9.1.0727_1/bin/vim" 
     export VIM_HOME="/usr/local/Cellar/vim/8.2.2100/"
     export PATH=$PATH:$VIM_HOME/bin
     alias mwd="cd ~/Documents"
-    source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-    source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-    chruby ruby-3.1.3
+    if [[ $(hostname) != "flowers17" ]]; then
+        # My Mac
+        source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+        source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+        alias vim="/opt/homebrew/Cellar/macvim/9.1.0727_1/bin/vim"
+        chruby ruby-3.1.3
+    else
+        # LLNL Mac
+        eval "$(~/homebrew/bin/brew shellenv)"
+    fi
     alias bw="bundle exec jekyll serve"
 
     function y() {

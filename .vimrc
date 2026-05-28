@@ -23,12 +23,14 @@ call plug#begin()
     Plug 'morhetz/gruvbox'
     Plug 'anufrievroman/vim-angry-reviewer'
     Plug 'tibabit/vim-templates'
-    Plug 'github/copilot.vim'
     Plug 'zivyangll/git-blame.vim'
     Plug 'terryma/vim-multiple-cursors'
     Plug 'shime/vim-livedown'
     Plug 'Yggdroot/indentLine'
     Plug 'tpope/vim-fugitive'
+    if hostname() !=# 'flowers20'
+        Plug 'github/copilot.vim'
+    endif
 call plug#end()
 
 runtime macros/matchit.vim
@@ -82,6 +84,21 @@ noremap <Leader>wq <C-w>
 
 set splitbelow
 set splitright
+
+" Map Ctrl-A to escape
+noremap <C-a> <Nop>
+noremap <C-a> <Esc><Esc>
+xnoremap <C-a> <Esc><Esc>
+
+noremap <C-A> <Nop>
+noremap <C-A> <Esc><Esc>
+xnoremap <C-A> <Esc><Esc>
+
+" Remap home row to escape
+inoremap jk <Esc><Esc>
+inoremap kj <Esc><Esc>
+cnoremap jk <C-c>
+cnoremap kj <C-c>
 
 " Change panes with <leader>[h,j,k,l]
 for mapcmd in ['nnoremap', 'tnoremap']
