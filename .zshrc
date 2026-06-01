@@ -67,6 +67,7 @@ then
     else
         # LLNL Mac
         eval "$(~/homebrew/bin/brew shellenv)"
+        export PATH="/opt/homebrew/bin:$PATH"
     fi
     alias bw="bundle exec jekyll serve"
 
