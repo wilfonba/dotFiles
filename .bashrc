@@ -51,8 +51,8 @@ fi
 
 if [[ $(hostname -f) =~ "ufhpc" ]];
 then
-    alias mwd="cd /blue/bala1s/bwilfong"
-    function gint() { salloc -t $3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest --gres=gpu:b200:1 -A bala1s;}
+    alias mw="cd /blue/bala1s/bwilfong"
+    function gint() { salloc -t $3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 --gpu-bind=closest -p hpg-b200  -A bala1s;}
     function cint() { salloc -t $3:00:00 -N $1 --ntasks-per-node=$2 -p hpg-milan -A bala1s;}
     alias l=". ./mfc.sh load -c h -m g"
     alias s="squeue -u bwilfong -o \"%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R\""
