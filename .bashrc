@@ -143,6 +143,7 @@ then
     function gint() { salloc -t 0$3:00:00 -N $1 --gpus-per-node=$2 --ntasks-per-node=$2 -A bdiy-delta-gpu;}
     function cint() { salloc -t 0$3:00:00 -p cpu -N $1 --ntasks-per-node=$2 -A bdiy-delta-cpu;}
     alias sst="squeue --start -u bwilfong"
+    export PATH="$HOME/.local/bin:$PATH" # Claude code
 fi
 
 if [[ $(hostname) =~ "gh-login" ]] || [[ $(hostname) =~ "hsn.cm.delta.internal.ncsa.edu" ]];
