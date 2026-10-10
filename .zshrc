@@ -88,14 +88,17 @@ then
     alias s="nvidia-smi"
     export TMPDIR=$HOME/tmp
     source ~/fastScratch/pythonEnv/bin/activate
-    alias pvserver="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvserver"
-    alias pvpython="/fastscratch/bwilfong3/software/ParaView-5.11.2-egl-MPI-Linux-Python3.9-x86_64/bin/pvpython"
+    alias pvserver="/fastscratch/bwilfong3/software/ParaView-6.1.0/bin/pvserver"
+    alias pvpython="/fastscratch/bwilfong3/software/ParaView-6.1.0/bin/pvpython"
 
     # Vim with copilot
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
     #export PATH="$HOME/local/vim/bin:$PATH"
     export PATH="$HOME/.local/bin:$PATH"
+
+    # Blender path
+    export PATH=$HOME/blender-4.3.2-linux-x64:$PATH
 fi
 
 if [[ $(hostname) =~ "phoenix" ]] || [[ $(hostname) =~ "atl" ]];
