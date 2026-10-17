@@ -33,10 +33,11 @@ if [[ $(hostname -f) =~ "tuolumne" ]];
 then
     alias mwd="cd /p/lustre5/wilfong1"
     alias mwdw="cd /usr/workspace/wilfong1"
-    alias l=". ./mfc.sh load -c tuo -m g"
+    alias l=". ./mfc.sh load -c tamd -m g"
     function gint() { flux alloc -t $2 -N $1 -q pdebug; }
     alias s="flux jobs"
     stty erase '^?' # Working backspace in vim
+    export PATH="/usr/bin:$HOME/.local/bin:$PATH" # Claude code
 fi
 
 if [[ $(hostname -f) =~ "tioga" ]];
