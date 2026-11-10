@@ -28,9 +28,9 @@ call plug#begin()
     Plug 'shime/vim-livedown'
     Plug 'Yggdroot/indentLine'
     Plug 'tpope/vim-fugitive'
-    if hostname() !=# 'flowers20'
-        Plug 'github/copilot.vim'
-    endif
+    "if hostname() !=# 'flowers20'
+        "Plug 'github/copilot.vim'
+    "endif
 call plug#end()
 
 runtime macros/matchit.vim
